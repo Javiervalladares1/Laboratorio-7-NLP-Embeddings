@@ -1,0 +1,841 @@
+{
+  "config": {
+    "name": "d100_w5",
+    "dim": 100,
+    "fraction": 1.0,
+    "window": 5,
+    "negative": 3,
+    "epochs": 3,
+    "min_count": 20,
+    "sample": 1e-05,
+    "lr": 0.025,
+    "min_lr": 0.001,
+    "batch_size": 1024,
+    "seed": 23045
+  },
+  "records": [
+    {
+      "epoch": 1,
+      "train_seconds": 11.395599749987014,
+      "loss_reported": 24084260.0,
+      "loss_note": "Acumulador aproximado de gensim; no comparar su escala con la pérdida media SGNS. Se reinicia por llamada train.",
+      "analogies": {
+        "accuracy": {
+          "semantic": 0.05045992115637319,
+          "syntactic": 0.06156425919271769,
+          "total": 0.05808787230541385
+        },
+        "categories": [
+          {
+            "category": "capital-common-countries",
+            "total": 506,
+            "evaluated": 462,
+            "coverage": 0.9130434782608695,
+            "correct": 34,
+            "accuracy": 0.0735930735930736
+          },
+          {
+            "category": "capital-world",
+            "total": 4524,
+            "evaluated": 1206,
+            "coverage": 0.26657824933687,
+            "correct": 73,
+            "accuracy": 0.06053067993366501
+          },
+          {
+            "category": "currency",
+            "total": 866,
+            "evaluated": 108,
+            "coverage": 0.12471131639722864,
+            "correct": 1,
+            "accuracy": 0.009259259259259259
+          },
+          {
+            "category": "city-in-state",
+            "total": 2467,
+            "evaluated": 1687,
+            "coverage": 0.6838265099310904,
+            "correct": 55,
+            "accuracy": 0.03260225251926497
+          },
+          {
+            "category": "family",
+            "total": 506,
+            "evaluated": 342,
+            "coverage": 0.6758893280632411,
+            "correct": 29,
+            "accuracy": 0.0847953216374269
+          },
+          {
+            "category": "gram1-adjective-to-adverb",
+            "total": 992,
+            "evaluated": 812,
+            "coverage": 0.8185483870967742,
+            "correct": 7,
+            "accuracy": 0.008620689655172414
+          },
+          {
+            "category": "gram2-opposite",
+            "total": 812,
+            "evaluated": 306,
+            "coverage": 0.3768472906403941,
+            "correct": 1,
+            "accuracy": 0.0032679738562091504
+          },
+          {
+            "category": "gram3-comparative",
+            "total": 1332,
+            "evaluated": 1260,
+            "coverage": 0.9459459459459459,
+            "correct": 43,
+            "accuracy": 0.034126984126984124
+          },
+          {
+            "category": "gram4-superlative",
+            "total": 1122,
+            "evaluated": 702,
+            "coverage": 0.6256684491978609,
+            "correct": 12,
+            "accuracy": 0.017094017094017096
+          },
+          {
+            "category": "gram5-present-participle",
+            "total": 1056,
+            "evaluated": 870,
+            "coverage": 0.8238636363636364,
+            "correct": 54,
+            "accuracy": 0.06206896551724138
+          },
+          {
+            "category": "gram6-nationality-adjective",
+            "total": 1599,
+            "evaluated": 1299,
+            "coverage": 0.8123827392120075,
+            "correct": 165,
+            "accuracy": 0.12702078521939955
+          },
+          {
+            "category": "gram7-past-tense",
+            "total": 1560,
+            "evaluated": 1406,
+            "coverage": 0.9012820512820513,
+            "correct": 106,
+            "accuracy": 0.07539118065433854
+          },
+          {
+            "category": "gram8-plural",
+            "total": 1332,
+            "evaluated": 992,
+            "coverage": 0.7447447447447447,
+            "correct": 109,
+            "accuracy": 0.10987903225806452
+          },
+          {
+            "category": "gram9-plural-verbs",
+            "total": 870,
+            "evaluated": 702,
+            "coverage": 0.8068965517241379,
+            "correct": 17,
+            "accuracy": 0.024216524216524215
+          }
+        ],
+        "evaluated": 12154,
+        "total_questions": 19544,
+        "coverage": 0.6218788374948834,
+        "candidate_count": 30000
+      },
+      "wordsim": {
+        "spearman": 0.5361330814646155,
+        "evaluated": 344,
+        "total": 353,
+        "coverage": 0.9745042492917847
+      },
+      "neighbors": {
+        "king": [
+          [
+            "lfhelm",
+            0.8367646336555481
+          ],
+          [
+            "judith",
+            0.8294195532798767
+          ],
+          [
+            "thelred",
+            0.8263248205184937
+          ],
+          [
+            "earls",
+            0.8262253403663635
+          ],
+          [
+            "duke",
+            0.8261798620223999
+          ]
+        ],
+        "france": [
+          [
+            "spain",
+            0.8728531002998352
+          ],
+          [
+            "italy",
+            0.8642371296882629
+          ],
+          [
+            "netherlands",
+            0.8446381688117981
+          ],
+          [
+            "belgium",
+            0.8435709476470947
+          ],
+          [
+            "portugal",
+            0.8367043733596802
+          ]
+        ],
+        "computer": [
+          [
+            "simulation",
+            0.8818621635437012
+          ],
+          [
+            "hardware",
+            0.8779812455177307
+          ],
+          [
+            "computers",
+            0.8635417819023132
+          ],
+          [
+            "devices",
+            0.8621802926063538
+          ],
+          [
+            "zx",
+            0.8566226363182068
+          ]
+        ],
+        "good": [
+          [
+            "wonderful",
+            0.8723366260528564
+          ],
+          [
+            "incredible",
+            0.868852972984314
+          ],
+          [
+            "pretty",
+            0.8647122383117676
+          ],
+          [
+            "definitely",
+            0.8635520339012146
+          ],
+          [
+            "summed",
+            0.8628404140472412
+          ]
+        ],
+        "january": [
+          [
+            "february",
+            0.864537239074707
+          ],
+          [
+            "december",
+            0.8644795417785645
+          ],
+          [
+            "march",
+            0.8562556505203247
+          ],
+          [
+            "april",
+            0.8446085453033447
+          ],
+          [
+            "july",
+            0.8338059782981873
+          ]
+        ],
+        "run": [
+          [
+            "running",
+            0.8054041266441345
+          ],
+          [
+            "motorist",
+            0.78488689661026
+          ],
+          [
+            "swapped",
+            0.7706666588783264
+          ],
+          [
+            "weekends",
+            0.7669658660888672
+          ],
+          [
+            "flipped",
+            0.7635746598243713
+          ]
+        ]
+      },
+      "gpu_peak_bytes": 0
+    },
+    {
+      "epoch": 2,
+      "train_seconds": 15.011915499984752,
+      "loss_reported": 23379050.0,
+      "loss_note": "Acumulador aproximado de gensim; no comparar su escala con la pérdida media SGNS. Se reinicia por llamada train.",
+      "analogies": {
+        "accuracy": {
+          "semantic": 0.10617608409986859,
+          "syntactic": 0.15798299197508683,
+          "total": 0.1417640283034392
+        },
+        "categories": [
+          {
+            "category": "capital-common-countries",
+            "total": 506,
+            "evaluated": 462,
+            "coverage": 0.9130434782608695,
+            "correct": 88,
+            "accuracy": 0.19047619047619047
+          },
+          {
+            "category": "capital-world",
+            "total": 4524,
+            "evaluated": 1206,
+            "coverage": 0.26657824933687,
+            "correct": 158,
+            "accuracy": 0.1310116086235489
+          },
+          {
+            "category": "currency",
+            "total": 866,
+            "evaluated": 108,
+            "coverage": 0.12471131639722864,
+            "correct": 1,
+            "accuracy": 0.009259259259259259
+          },
+          {
+            "category": "city-in-state",
+            "total": 2467,
+            "evaluated": 1687,
+            "coverage": 0.6838265099310904,
+            "correct": 112,
+            "accuracy": 0.06639004149377593
+          },
+          {
+            "category": "family",
+            "total": 506,
+            "evaluated": 342,
+            "coverage": 0.6758893280632411,
+            "correct": 45,
+            "accuracy": 0.13157894736842105
+          },
+          {
+            "category": "gram1-adjective-to-adverb",
+            "total": 992,
+            "evaluated": 812,
+            "coverage": 0.8185483870967742,
+            "correct": 20,
+            "accuracy": 0.024630541871921183
+          },
+          {
+            "category": "gram2-opposite",
+            "total": 812,
+            "evaluated": 306,
+            "coverage": 0.3768472906403941,
+            "correct": 9,
+            "accuracy": 0.029411764705882353
+          },
+          {
+            "category": "gram3-comparative",
+            "total": 1332,
+            "evaluated": 1260,
+            "coverage": 0.9459459459459459,
+            "correct": 165,
+            "accuracy": 0.13095238095238096
+          },
+          {
+            "category": "gram4-superlative",
+            "total": 1122,
+            "evaluated": 702,
+            "coverage": 0.6256684491978609,
+            "correct": 44,
+            "accuracy": 0.06267806267806268
+          },
+          {
+            "category": "gram5-present-participle",
+            "total": 1056,
+            "evaluated": 870,
+            "coverage": 0.8238636363636364,
+            "correct": 103,
+            "accuracy": 0.11839080459770115
+          },
+          {
+            "category": "gram6-nationality-adjective",
+            "total": 1599,
+            "evaluated": 1299,
+            "coverage": 0.8123827392120075,
+            "correct": 421,
+            "accuracy": 0.32409545804464973
+          },
+          {
+            "category": "gram7-past-tense",
+            "total": 1560,
+            "evaluated": 1406,
+            "coverage": 0.9012820512820513,
+            "correct": 257,
+            "accuracy": 0.18278805120910385
+          },
+          {
+            "category": "gram8-plural",
+            "total": 1332,
+            "evaluated": 992,
+            "coverage": 0.7447447447447447,
+            "correct": 238,
+            "accuracy": 0.2399193548387097
+          },
+          {
+            "category": "gram9-plural-verbs",
+            "total": 870,
+            "evaluated": 702,
+            "coverage": 0.8068965517241379,
+            "correct": 62,
+            "accuracy": 0.08831908831908832
+          }
+        ],
+        "evaluated": 12154,
+        "total_questions": 19544,
+        "coverage": 0.6218788374948834,
+        "candidate_count": 30000
+      },
+      "wordsim": {
+        "spearman": 0.6040143447221464,
+        "evaluated": 344,
+        "total": 353,
+        "coverage": 0.9745042492917847
+      },
+      "neighbors": {
+        "king": [
+          [
+            "thelred",
+            0.7874760031700134
+          ],
+          [
+            "cnut",
+            0.7841113805770874
+          ],
+          [
+            "throne",
+            0.7823181748390198
+          ],
+          [
+            "thelbald",
+            0.7819651961326599
+          ],
+          [
+            "conqueror",
+            0.7789013385772705
+          ]
+        ],
+        "france": [
+          [
+            "netherlands",
+            0.8078675866127014
+          ],
+          [
+            "spain",
+            0.8025344014167786
+          ],
+          [
+            "belgium",
+            0.7844371795654297
+          ],
+          [
+            "italy",
+            0.7505813837051392
+          ],
+          [
+            "portugal",
+            0.7365754246711731
+          ]
+        ],
+        "computer": [
+          [
+            "computers",
+            0.8631809949874878
+          ],
+          [
+            "software",
+            0.8375476598739624
+          ],
+          [
+            "programmer",
+            0.8126550912857056
+          ],
+          [
+            "blackley",
+            0.8094925284385681
+          ],
+          [
+            "hitman",
+            0.8081682920455933
+          ]
+        ],
+        "good": [
+          [
+            "pretty",
+            0.8361865282058716
+          ],
+          [
+            "hasn",
+            0.8343077898025513
+          ],
+          [
+            "damn",
+            0.8255342841148376
+          ],
+          [
+            "awful",
+            0.820895254611969
+          ],
+          [
+            "aren",
+            0.8201568126678467
+          ]
+        ],
+        "january": [
+          [
+            "december",
+            0.8701837658882141
+          ],
+          [
+            "march",
+            0.8499588966369629
+          ],
+          [
+            "february",
+            0.8230066895484924
+          ],
+          [
+            "april",
+            0.8202086091041565
+          ],
+          [
+            "november",
+            0.8166166543960571
+          ]
+        ],
+        "run": [
+          [
+            "reverting",
+            0.6715222001075745
+          ],
+          [
+            "lytle",
+            0.6696279048919678
+          ],
+          [
+            "running",
+            0.6679880023002625
+          ],
+          [
+            "suggs",
+            0.6613354682922363
+          ],
+          [
+            "capitalized",
+            0.6541765332221985
+          ]
+        ]
+      },
+      "gpu_peak_bytes": 0
+    },
+    {
+      "epoch": 3,
+      "train_seconds": 13.56919020897476,
+      "loss_reported": 23382756.0,
+      "loss_note": "Acumulador aproximado de gensim; no comparar su escala con la pérdida media SGNS. Se reinicia por llamada train.",
+      "analogies": {
+        "accuracy": {
+          "semantic": 0.14612352168199738,
+          "syntactic": 0.25943226733740565,
+          "total": 0.22395919038999507
+        },
+        "categories": [
+          {
+            "category": "capital-common-countries",
+            "total": 506,
+            "evaluated": 462,
+            "coverage": 0.9130434782608695,
+            "correct": 119,
+            "accuracy": 0.25757575757575757
+          },
+          {
+            "category": "capital-world",
+            "total": 4524,
+            "evaluated": 1206,
+            "coverage": 0.26657824933687,
+            "correct": 217,
+            "accuracy": 0.1799336650082919
+          },
+          {
+            "category": "currency",
+            "total": 866,
+            "evaluated": 108,
+            "coverage": 0.12471131639722864,
+            "correct": 1,
+            "accuracy": 0.009259259259259259
+          },
+          {
+            "category": "city-in-state",
+            "total": 2467,
+            "evaluated": 1687,
+            "coverage": 0.6838265099310904,
+            "correct": 153,
+            "accuracy": 0.0906935388263189
+          },
+          {
+            "category": "family",
+            "total": 506,
+            "evaluated": 342,
+            "coverage": 0.6758893280632411,
+            "correct": 66,
+            "accuracy": 0.19298245614035087
+          },
+          {
+            "category": "gram1-adjective-to-adverb",
+            "total": 992,
+            "evaluated": 812,
+            "coverage": 0.8185483870967742,
+            "correct": 43,
+            "accuracy": 0.05295566502463054
+          },
+          {
+            "category": "gram2-opposite",
+            "total": 812,
+            "evaluated": 306,
+            "coverage": 0.3768472906403941,
+            "correct": 14,
+            "accuracy": 0.0457516339869281
+          },
+          {
+            "category": "gram3-comparative",
+            "total": 1332,
+            "evaluated": 1260,
+            "coverage": 0.9459459459459459,
+            "correct": 262,
+            "accuracy": 0.20793650793650795
+          },
+          {
+            "category": "gram4-superlative",
+            "total": 1122,
+            "evaluated": 702,
+            "coverage": 0.6256684491978609,
+            "correct": 81,
+            "accuracy": 0.11538461538461539
+          },
+          {
+            "category": "gram5-present-participle",
+            "total": 1056,
+            "evaluated": 870,
+            "coverage": 0.8238636363636364,
+            "correct": 191,
+            "accuracy": 0.21954022988505748
+          },
+          {
+            "category": "gram6-nationality-adjective",
+            "total": 1599,
+            "evaluated": 1299,
+            "coverage": 0.8123827392120075,
+            "correct": 690,
+            "accuracy": 0.5311778290993071
+          },
+          {
+            "category": "gram7-past-tense",
+            "total": 1560,
+            "evaluated": 1406,
+            "coverage": 0.9012820512820513,
+            "correct": 470,
+            "accuracy": 0.33428165007112376
+          },
+          {
+            "category": "gram8-plural",
+            "total": 1332,
+            "evaluated": 992,
+            "coverage": 0.7447447447447447,
+            "correct": 292,
+            "accuracy": 0.29435483870967744
+          },
+          {
+            "category": "gram9-plural-verbs",
+            "total": 870,
+            "evaluated": 702,
+            "coverage": 0.8068965517241379,
+            "correct": 123,
+            "accuracy": 0.1752136752136752
+          }
+        ],
+        "evaluated": 12154,
+        "total_questions": 19544,
+        "coverage": 0.6218788374948834,
+        "candidate_count": 30000
+      },
+      "wordsim": {
+        "spearman": 0.6377982201359133,
+        "evaluated": 344,
+        "total": 353,
+        "coverage": 0.9745042492917847
+      },
+      "neighbors": {
+        "king": [
+          [
+            "throne",
+            0.7647279500961304
+          ],
+          [
+            "1121",
+            0.7564148902893066
+          ],
+          [
+            "thelred",
+            0.7524538636207581
+          ],
+          [
+            "1136",
+            0.7493699789047241
+          ],
+          [
+            "regent",
+            0.7485096454620361
+          ]
+        ],
+        "france": [
+          [
+            "spain",
+            0.8151857852935791
+          ],
+          [
+            "netherlands",
+            0.8106077909469604
+          ],
+          [
+            "portugal",
+            0.7677130699157715
+          ],
+          [
+            "belgium",
+            0.7666090726852417
+          ],
+          [
+            "italy",
+            0.7493759989738464
+          ]
+        ],
+        "computer": [
+          [
+            "computers",
+            0.8653610348701477
+          ],
+          [
+            "simulation",
+            0.8185442090034485
+          ],
+          [
+            "spacewar",
+            0.8152511715888977
+          ],
+          [
+            "software",
+            0.8015428185462952
+          ],
+          [
+            "unix",
+            0.7974230647087097
+          ]
+        ],
+        "good": [
+          [
+            "pretty",
+            0.7900639772415161
+          ],
+          [
+            "obviously",
+            0.7823641300201416
+          ],
+          [
+            "aren",
+            0.781166136264801
+          ],
+          [
+            "hasn",
+            0.7808719277381897
+          ],
+          [
+            "natured",
+            0.7776313424110413
+          ]
+        ],
+        "january": [
+          [
+            "december",
+            0.9288539290428162
+          ],
+          [
+            "february",
+            0.9206566214561462
+          ],
+          [
+            "march",
+            0.9122180342674255
+          ],
+          [
+            "november",
+            0.900735080242157
+          ],
+          [
+            "april",
+            0.8729256391525269
+          ]
+        ],
+        "run": [
+          [
+            "running",
+            0.6783150434494019
+          ],
+          [
+            "suggs",
+            0.6713240146636963
+          ],
+          [
+            "ran",
+            0.6552290320396423
+          ],
+          [
+            "timeout",
+            0.6540025472640991
+          ],
+          [
+            "keldorf",
+            0.6531543731689453
+          ]
+        ]
+      },
+      "gpu_peak_bytes": 0
+    }
+  ],
+  "best_epoch": 3,
+  "selection_score": 0.8617574105259083,
+  "training_seconds": 39.976705458946526,
+  "elapsed_seconds": 41.135865332966205,
+  "hardware": "Apple M1 Pro; CPU 4 workers",
+  "vocab_size": 38569,
+  "corpus_tokens": 21336925
+}

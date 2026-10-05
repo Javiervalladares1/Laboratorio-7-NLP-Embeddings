@@ -1,0 +1,4358 @@
+{
+  "SGNS": {
+    "vocab_size": 38569,
+    "dim": 100,
+    "analogies": {
+      "add": {
+        "accuracy": {
+          "semantic": 0.16609724047306176,
+          "syntactic": 0.2653012336806803,
+          "total": 0.2342438703307553
+        },
+        "categories": [
+          {
+            "category": "capital-common-countries",
+            "total": 506,
+            "evaluated": 462,
+            "coverage": 0.9130434782608695,
+            "correct": 122,
+            "accuracy": 0.26406926406926406
+          },
+          {
+            "category": "capital-world",
+            "total": 4524,
+            "evaluated": 1206,
+            "coverage": 0.26657824933687,
+            "correct": 245,
+            "accuracy": 0.20315091210613598
+          },
+          {
+            "category": "currency",
+            "total": 866,
+            "evaluated": 108,
+            "coverage": 0.12471131639722864,
+            "correct": 1,
+            "accuracy": 0.009259259259259259
+          },
+          {
+            "category": "city-in-state",
+            "total": 2467,
+            "evaluated": 1687,
+            "coverage": 0.6838265099310904,
+            "correct": 182,
+            "accuracy": 0.1078838174273859
+          },
+          {
+            "category": "family",
+            "total": 506,
+            "evaluated": 342,
+            "coverage": 0.6758893280632411,
+            "correct": 82,
+            "accuracy": 0.23976608187134502
+          },
+          {
+            "category": "gram1-adjective-to-adverb",
+            "total": 992,
+            "evaluated": 812,
+            "coverage": 0.8185483870967742,
+            "correct": 38,
+            "accuracy": 0.046798029556650245
+          },
+          {
+            "category": "gram2-opposite",
+            "total": 812,
+            "evaluated": 306,
+            "coverage": 0.3768472906403941,
+            "correct": 8,
+            "accuracy": 0.026143790849673203
+          },
+          {
+            "category": "gram3-comparative",
+            "total": 1332,
+            "evaluated": 1260,
+            "coverage": 0.9459459459459459,
+            "correct": 221,
+            "accuracy": 0.17539682539682538
+          },
+          {
+            "category": "gram4-superlative",
+            "total": 1122,
+            "evaluated": 702,
+            "coverage": 0.6256684491978609,
+            "correct": 78,
+            "accuracy": 0.1111111111111111
+          },
+          {
+            "category": "gram5-present-participle",
+            "total": 1056,
+            "evaluated": 870,
+            "coverage": 0.8238636363636364,
+            "correct": 186,
+            "accuracy": 0.21379310344827587
+          },
+          {
+            "category": "gram6-nationality-adjective",
+            "total": 1599,
+            "evaluated": 1299,
+            "coverage": 0.8123827392120075,
+            "correct": 778,
+            "accuracy": 0.5989222478829869
+          },
+          {
+            "category": "gram7-past-tense",
+            "total": 1560,
+            "evaluated": 1406,
+            "coverage": 0.9012820512820513,
+            "correct": 536,
+            "accuracy": 0.3812233285917496
+          },
+          {
+            "category": "gram8-plural",
+            "total": 1332,
+            "evaluated": 992,
+            "coverage": 0.7447447447447447,
+            "correct": 235,
+            "accuracy": 0.2368951612903226
+          },
+          {
+            "category": "gram9-plural-verbs",
+            "total": 870,
+            "evaluated": 702,
+            "coverage": 0.8068965517241379,
+            "correct": 135,
+            "accuracy": 0.19230769230769232
+          }
+        ],
+        "evaluated": 12154,
+        "total_questions": 19544,
+        "coverage": 0.6218788374948834,
+        "candidate_count": 30000
+      },
+      "mul": {
+        "accuracy": {
+          "semantic": 0.15269382391590014,
+          "syntactic": 0.22397891963109354,
+          "total": 0.20166200427842684
+        },
+        "categories": [
+          {
+            "category": "capital-common-countries",
+            "total": 506,
+            "evaluated": 462,
+            "coverage": 0.9130434782608695,
+            "correct": 121,
+            "accuracy": 0.2619047619047619
+          },
+          {
+            "category": "capital-world",
+            "total": 4524,
+            "evaluated": 1206,
+            "coverage": 0.26657824933687,
+            "correct": 211,
+            "accuracy": 0.17495854063018243
+          },
+          {
+            "category": "currency",
+            "total": 866,
+            "evaluated": 108,
+            "coverage": 0.12471131639722864,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "category": "city-in-state",
+            "total": 2467,
+            "evaluated": 1687,
+            "coverage": 0.6838265099310904,
+            "correct": 171,
+            "accuracy": 0.1013633669235329
+          },
+          {
+            "category": "family",
+            "total": 506,
+            "evaluated": 342,
+            "coverage": 0.6758893280632411,
+            "correct": 78,
+            "accuracy": 0.22807017543859648
+          },
+          {
+            "category": "gram1-adjective-to-adverb",
+            "total": 992,
+            "evaluated": 812,
+            "coverage": 0.8185483870967742,
+            "correct": 31,
+            "accuracy": 0.038177339901477834
+          },
+          {
+            "category": "gram2-opposite",
+            "total": 812,
+            "evaluated": 306,
+            "coverage": 0.3768472906403941,
+            "correct": 5,
+            "accuracy": 0.016339869281045753
+          },
+          {
+            "category": "gram3-comparative",
+            "total": 1332,
+            "evaluated": 1260,
+            "coverage": 0.9459459459459459,
+            "correct": 203,
+            "accuracy": 0.16111111111111112
+          },
+          {
+            "category": "gram4-superlative",
+            "total": 1122,
+            "evaluated": 702,
+            "coverage": 0.6256684491978609,
+            "correct": 78,
+            "accuracy": 0.1111111111111111
+          },
+          {
+            "category": "gram5-present-participle",
+            "total": 1056,
+            "evaluated": 870,
+            "coverage": 0.8238636363636364,
+            "correct": 125,
+            "accuracy": 0.14367816091954022
+          },
+          {
+            "category": "gram6-nationality-adjective",
+            "total": 1599,
+            "evaluated": 1299,
+            "coverage": 0.8123827392120075,
+            "correct": 711,
+            "accuracy": 0.5473441108545035
+          },
+          {
+            "category": "gram7-past-tense",
+            "total": 1560,
+            "evaluated": 1406,
+            "coverage": 0.9012820512820513,
+            "correct": 417,
+            "accuracy": 0.29658605974395447
+          },
+          {
+            "category": "gram8-plural",
+            "total": 1332,
+            "evaluated": 992,
+            "coverage": 0.7447447447447447,
+            "correct": 191,
+            "accuracy": 0.19254032258064516
+          },
+          {
+            "category": "gram9-plural-verbs",
+            "total": 870,
+            "evaluated": 702,
+            "coverage": 0.8068965517241379,
+            "correct": 109,
+            "accuracy": 0.15527065527065528
+          }
+        ],
+        "evaluated": 12154,
+        "total_questions": 19544,
+        "coverage": 0.6218788374948834,
+        "candidate_count": 30000
+      }
+    },
+    "wordsim": {
+      "spearman": 0.6503608268160557,
+      "evaluated": 344,
+      "total": 353,
+      "coverage": 0.9745042492917847
+    },
+    "simlex": {
+      "spearman": 0.2695435193359134,
+      "evaluated": 983,
+      "total": 999,
+      "coverage": 0.983983983983984
+    },
+    "individual": {
+      "queries": [
+        {
+          "type": "genero",
+          "a": "man",
+          "b": "woman",
+          "c": "king",
+          "expected": "queen",
+          "without_exclusion": [
+            [
+              "king",
+              0.7234075665473938
+            ],
+            [
+              "consort",
+              0.7051764726638794
+            ],
+            [
+              "marriage",
+              0.6880382299423218
+            ],
+            [
+              "childless",
+              0.6849664449691772
+            ],
+            [
+              "sibyl",
+              0.6821231842041016
+            ]
+          ],
+          "expected_cosine": 0.6386157274246216,
+          "top5": [
+            [
+              "consort",
+              0.7051764726638794
+            ],
+            [
+              "marriage",
+              0.6880382299423218
+            ],
+            [
+              "childless",
+              0.6849664449691772
+            ],
+            [
+              "sibyl",
+              0.6821231842041016
+            ],
+            [
+              "violante",
+              0.6667181849479675
+            ]
+          ],
+          "expected_rank": 28,
+          "matches_gensim": true,
+          "difference_cosine": 0.34814611077308655,
+          "relative_residual": 0.5712158679962158
+        },
+        {
+          "type": "genero",
+          "a": "boy",
+          "b": "girl",
+          "c": "brother",
+          "expected": "sister",
+          "without_exclusion": [
+            [
+              "brother",
+              0.7665119171142578
+            ],
+            [
+              "wed",
+              0.7380378842353821
+            ],
+            [
+              "fathered",
+              0.7110214233398438
+            ],
+            [
+              "widowed",
+              0.6987758874893188
+            ],
+            [
+              "uncles",
+              0.6950841546058655
+            ]
+          ],
+          "expected_cosine": 0.5259056687355042,
+          "top5": [
+            [
+              "wed",
+              0.7380378842353821
+            ],
+            [
+              "fathered",
+              0.7110214233398438
+            ],
+            [
+              "widowed",
+              0.6987758874893188
+            ],
+            [
+              "uncles",
+              0.6950841546058655
+            ],
+            [
+              "wedlock",
+              0.6925019025802612
+            ]
+          ],
+          "expected_rank": 787,
+          "matches_gensim": true,
+          "difference_cosine": 0.11603807657957077,
+          "relative_residual": 0.6658072471618652
+        },
+        {
+          "type": "genero",
+          "a": "father",
+          "b": "mother",
+          "c": "son",
+          "expected": "daughter",
+          "without_exclusion": [
+            [
+              "mother",
+              0.8538044691085815
+            ],
+            [
+              "son",
+              0.7974047064781189
+            ],
+            [
+              "daughter",
+              0.7941516637802124
+            ],
+            [
+              "fathered",
+              0.7484341263771057
+            ],
+            [
+              "grandmother",
+              0.7481063604354858
+            ]
+          ],
+          "expected_cosine": 0.7941516637802124,
+          "top5": [
+            [
+              "daughter",
+              0.7941516637802124
+            ],
+            [
+              "fathered",
+              0.7484341263771057
+            ],
+            [
+              "grandmother",
+              0.7481063604354858
+            ],
+            [
+              "cousins",
+              0.7409924268722534
+            ],
+            [
+              "niece",
+              0.7383625507354736
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.4274464249610901,
+          "relative_residual": 0.5350826978683472
+        },
+        {
+          "type": "capital",
+          "a": "france",
+          "b": "paris",
+          "c": "germany",
+          "expected": "berlin",
+          "without_exclusion": [
+            [
+              "berlin",
+              0.8144534826278687
+            ],
+            [
+              "vienna",
+              0.7567140460014343
+            ],
+            [
+              "paris",
+              0.7453516125679016
+            ],
+            [
+              "germany",
+              0.7351027727127075
+            ],
+            [
+              "prague",
+              0.707609236240387
+            ]
+          ],
+          "expected_cosine": 0.8144534826278687,
+          "top5": [
+            [
+              "berlin",
+              0.8144534826278687
+            ],
+            [
+              "vienna",
+              0.7567140460014343
+            ],
+            [
+              "prague",
+              0.707609236240387
+            ],
+            [
+              "munich",
+              0.7067631483078003
+            ],
+            [
+              "budapest",
+              0.6934975385665894
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.654170036315918,
+          "relative_residual": 0.4169621169567108
+        },
+        {
+          "type": "capital",
+          "a": "italy",
+          "b": "rome",
+          "c": "japan",
+          "expected": "tokyo",
+          "without_exclusion": [
+            [
+              "japan",
+              0.6947208642959595
+            ],
+            [
+              "ryse",
+              0.6601597666740417
+            ],
+            [
+              "empires",
+              0.6508101224899292
+            ],
+            [
+              "realms",
+              0.6391615271568298
+            ],
+            [
+              "psp",
+              0.6375248432159424
+            ]
+          ],
+          "expected_cosine": 0.5845799446105957,
+          "top5": [
+            [
+              "ryse",
+              0.6601597666740417
+            ],
+            [
+              "empires",
+              0.6508101224899292
+            ],
+            [
+              "realms",
+              0.6391615271568298
+            ],
+            [
+              "psp",
+              0.6375248432159424
+            ],
+            [
+              "vita",
+              0.6349048018455505
+            ]
+          ],
+          "expected_rank": 33,
+          "matches_gensim": true,
+          "difference_cosine": 0.2730076014995575,
+          "relative_residual": 0.60353684425354
+        },
+        {
+          "type": "capital",
+          "a": "spain",
+          "b": "madrid",
+          "c": "england",
+          "expected": "london",
+          "without_exclusion": [
+            [
+              "burnley",
+              0.7668814659118652
+            ],
+            [
+              "gillingham",
+              0.7654281258583069
+            ],
+            [
+              "wrexham",
+              0.7633183002471924
+            ],
+            [
+              "anfield",
+              0.7626076936721802
+            ],
+            [
+              "tranmere",
+              0.7608060836791992
+            ]
+          ],
+          "expected_cosine": 0.43679672479629517,
+          "top5": [
+            [
+              "burnley",
+              0.7668814659118652
+            ],
+            [
+              "gillingham",
+              0.7654281258583069
+            ],
+            [
+              "wrexham",
+              0.7633183002471924
+            ],
+            [
+              "anfield",
+              0.7626076936721802
+            ],
+            [
+              "tranmere",
+              0.7608060836791992
+            ]
+          ],
+          "expected_rank": 1454,
+          "matches_gensim": true,
+          "difference_cosine": 0.21872885525226593,
+          "relative_residual": 0.6261260509490967
+        },
+        {
+          "type": "gentilicio",
+          "a": "france",
+          "b": "french",
+          "c": "germany",
+          "expected": "german",
+          "without_exclusion": [
+            [
+              "german",
+              0.7775048017501831
+            ],
+            [
+              "russian",
+              0.7654924392700195
+            ],
+            [
+              "french",
+              0.7241911888122559
+            ],
+            [
+              "austrian",
+              0.7041552066802979
+            ],
+            [
+              "russians",
+              0.6950137615203857
+            ]
+          ],
+          "expected_cosine": 0.7775048017501831,
+          "top5": [
+            [
+              "german",
+              0.7775048017501831
+            ],
+            [
+              "russian",
+              0.7654924392700195
+            ],
+            [
+              "austrian",
+              0.7041552066802979
+            ],
+            [
+              "russians",
+              0.6950137615203857
+            ],
+            [
+              "bolsheviks",
+              0.6896018981933594
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.6456635594367981,
+          "relative_residual": 0.420968621969223
+        },
+        {
+          "type": "gentilicio",
+          "a": "japan",
+          "b": "japanese",
+          "c": "china",
+          "expected": "chinese",
+          "without_exclusion": [
+            [
+              "chinese",
+              0.818138837814331
+            ],
+            [
+              "china",
+              0.7484347820281982
+            ],
+            [
+              "japanese",
+              0.6479308605194092
+            ],
+            [
+              "sino",
+              0.6429059505462646
+            ],
+            [
+              "java",
+              0.6285897493362427
+            ]
+          ],
+          "expected_cosine": 0.818138837814331,
+          "top5": [
+            [
+              "chinese",
+              0.818138837814331
+            ],
+            [
+              "sino",
+              0.6429059505462646
+            ],
+            [
+              "java",
+              0.6285897493362427
+            ],
+            [
+              "chiang",
+              0.6080536842346191
+            ],
+            [
+              "kuomintang",
+              0.5994144678115845
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.6245377659797668,
+          "relative_residual": 0.43340277671813965
+        },
+        {
+          "type": "gentilicio",
+          "a": "italy",
+          "b": "italian",
+          "c": "spain",
+          "expected": "spanish",
+          "without_exclusion": [
+            [
+              "italian",
+              0.7978676557540894
+            ],
+            [
+              "spanish",
+              0.7942861914634705
+            ],
+            [
+              "portuguese",
+              0.7224534749984741
+            ],
+            [
+              "argentine",
+              0.7178353071212769
+            ],
+            [
+              "franco",
+              0.714600145816803
+            ]
+          ],
+          "expected_cosine": 0.7942861914634705,
+          "top5": [
+            [
+              "spanish",
+              0.7942861914634705
+            ],
+            [
+              "portuguese",
+              0.7224534749984741
+            ],
+            [
+              "argentine",
+              0.7178353071212769
+            ],
+            [
+              "franco",
+              0.714600145816803
+            ],
+            [
+              "espa",
+              0.6949516534805298
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.6632229089736938,
+          "relative_residual": 0.4108949899673462
+        },
+        {
+          "type": "comparativo",
+          "a": "good",
+          "b": "better",
+          "c": "bad",
+          "expected": "worse",
+          "without_exclusion": [
+            [
+              "better",
+              0.7369165420532227
+            ],
+            [
+              "bad",
+              0.729798436164856
+            ],
+            [
+              "deviated",
+              0.6376618146896362
+            ],
+            [
+              "weren",
+              0.6281055212020874
+            ],
+            [
+              "deemed",
+              0.6180931329727173
+            ]
+          ],
+          "expected_cosine": 0.5511386394500732,
+          "top5": [
+            [
+              "deviated",
+              0.6376618146896362
+            ],
+            [
+              "weren",
+              0.6281055212020874
+            ],
+            [
+              "deemed",
+              0.6180931329727173
+            ],
+            [
+              "aren",
+              0.615933895111084
+            ],
+            [
+              "totally",
+              0.6155552268028259
+            ]
+          ],
+          "expected_rank": 93,
+          "matches_gensim": true,
+          "difference_cosine": 0.3030133843421936,
+          "relative_residual": 0.5977175235748291
+        },
+        {
+          "type": "comparativo",
+          "a": "small",
+          "b": "smaller",
+          "c": "large",
+          "expected": "larger",
+          "without_exclusion": [
+            [
+              "smaller",
+              0.8557093143463135
+            ],
+            [
+              "large",
+              0.7769978046417236
+            ],
+            [
+              "larger",
+              0.7535430192947388
+            ],
+            [
+              "size",
+              0.697371244430542
+            ],
+            [
+              "sizes",
+              0.6891132593154907
+            ]
+          ],
+          "expected_cosine": 0.7535430192947388,
+          "top5": [
+            [
+              "larger",
+              0.7535430192947388
+            ],
+            [
+              "size",
+              0.697371244430542
+            ],
+            [
+              "sizes",
+              0.6891132593154907
+            ],
+            [
+              "cranes",
+              0.6203031539916992
+            ],
+            [
+              "smallest",
+              0.6105147004127502
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.4658675193786621,
+          "relative_residual": 0.5178011059761047
+        },
+        {
+          "type": "comparativo",
+          "a": "fast",
+          "b": "faster",
+          "c": "slow",
+          "expected": "slower",
+          "without_exclusion": [
+            [
+              "faster",
+              0.8062900900840759
+            ],
+            [
+              "slower",
+              0.7554188966751099
+            ],
+            [
+              "slow",
+              0.7379278540611267
+            ],
+            [
+              "slowing",
+              0.702073335647583
+            ],
+            [
+              "slowed",
+              0.678547739982605
+            ]
+          ],
+          "expected_cosine": 0.7554188966751099,
+          "top5": [
+            [
+              "slower",
+              0.7554188966751099
+            ],
+            [
+              "slowing",
+              0.702073335647583
+            ],
+            [
+              "slowed",
+              0.678547739982605
+            ],
+            [
+              "overheating",
+              0.6741552352905273
+            ],
+            [
+              "turbulence",
+              0.6709072589874268
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.5204211473464966,
+          "relative_residual": 0.49080756306648254
+        },
+        {
+          "type": "superlativo",
+          "a": "small",
+          "b": "smallest",
+          "c": "large",
+          "expected": "largest",
+          "without_exclusion": [
+            [
+              "smallest",
+              0.8547687530517578
+            ],
+            [
+              "size",
+              0.7033575773239136
+            ],
+            [
+              "constituting",
+              0.6888705492019653
+            ],
+            [
+              "largest",
+              0.6715410351753235
+            ],
+            [
+              "spelea",
+              0.6669085025787354
+            ]
+          ],
+          "expected_cosine": 0.6715410351753235,
+          "top5": [
+            [
+              "size",
+              0.7033575773239136
+            ],
+            [
+              "constituting",
+              0.6888705492019653
+            ],
+            [
+              "largest",
+              0.6715410351753235
+            ],
+            [
+              "spelea",
+              0.6669085025787354
+            ],
+            [
+              "sizes",
+              0.6638698577880859
+            ]
+          ],
+          "expected_rank": 3,
+          "matches_gensim": true,
+          "difference_cosine": 0.4995712637901306,
+          "relative_residual": 0.5003121495246887
+        },
+        {
+          "type": "superlativo",
+          "a": "good",
+          "b": "best",
+          "c": "bad",
+          "expected": "worst",
+          "without_exclusion": [
+            [
+              "best",
+              0.7670308351516724
+            ],
+            [
+              "awards",
+              0.7368649244308472
+            ],
+            [
+              "grammys",
+              0.6716893911361694
+            ],
+            [
+              "brit",
+              0.6704486608505249
+            ],
+            [
+              "muchmusic",
+              0.6699422597885132
+            ]
+          ],
+          "expected_cosine": 0.48421967029571533,
+          "top5": [
+            [
+              "awards",
+              0.7368649244308472
+            ],
+            [
+              "grammys",
+              0.6716893911361694
+            ],
+            [
+              "brit",
+              0.6704486608505249
+            ],
+            [
+              "muchmusic",
+              0.6699422597885132
+            ],
+            [
+              "nominated",
+              0.6681402921676636
+            ]
+          ],
+          "expected_rank": 895,
+          "matches_gensim": true,
+          "difference_cosine": 0.32739418745040894,
+          "relative_residual": 0.5801387429237366
+        },
+        {
+          "type": "superlativo",
+          "a": "high",
+          "b": "highest",
+          "c": "low",
+          "expected": "lowest",
+          "without_exclusion": [
+            [
+              "highest",
+              0.7399678230285645
+            ],
+            [
+              "lowest",
+              0.6513933539390564
+            ],
+            [
+              "fluctuated",
+              0.6190624833106995
+            ],
+            [
+              "low",
+              0.6006737351417542
+            ],
+            [
+              "grosses",
+              0.5921618938446045
+            ]
+          ],
+          "expected_cosine": 0.6513933539390564,
+          "top5": [
+            [
+              "lowest",
+              0.6513933539390564
+            ],
+            [
+              "fluctuated",
+              0.6190624833106995
+            ],
+            [
+              "grosses",
+              0.5921618938446045
+            ],
+            [
+              "lows",
+              0.5863169431686401
+            ],
+            [
+              "245",
+              0.5576532483100891
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.5533876419067383,
+          "relative_residual": 0.4767734706401825
+        },
+        {
+          "type": "pasado",
+          "a": "run",
+          "b": "ran",
+          "c": "swim",
+          "expected": "swam",
+          "without_exclusion": [
+            [
+              "swim",
+              0.7698462009429932
+            ],
+            [
+              "swimming",
+              0.6466018557548523
+            ],
+            [
+              "swam",
+              0.6309370994567871
+            ],
+            [
+              "swimmers",
+              0.6173944473266602
+            ],
+            [
+              "surfing",
+              0.5625138282775879
+            ]
+          ],
+          "expected_cosine": 0.6309370994567871,
+          "top5": [
+            [
+              "swimming",
+              0.6466018557548523
+            ],
+            [
+              "swam",
+              0.6309370994567871
+            ],
+            [
+              "swimmers",
+              0.6173944473266602
+            ],
+            [
+              "surfing",
+              0.5625138282775879
+            ],
+            [
+              "swimmer",
+              0.5520095825195312
+            ]
+          ],
+          "expected_rank": 2,
+          "matches_gensim": true,
+          "difference_cosine": 0.1564144641160965,
+          "relative_residual": 0.6494652032852173
+        },
+        {
+          "type": "pasado",
+          "a": "go",
+          "b": "went",
+          "c": "see",
+          "expected": "saw",
+          "without_exclusion": [
+            [
+              "went",
+              0.7370022535324097
+            ],
+            [
+              "see",
+              0.6855746507644653
+            ],
+            [
+              "in",
+              0.6018849611282349
+            ],
+            [
+              "the",
+              0.5978448390960693
+            ],
+            [
+              "put",
+              0.5723766088485718
+            ]
+          ],
+          "expected_cosine": 0.5576151609420776,
+          "top5": [
+            [
+              "in",
+              0.6018849611282349
+            ],
+            [
+              "the",
+              0.5978448390960693
+            ],
+            [
+              "put",
+              0.5723766088485718
+            ],
+            [
+              "time",
+              0.5674890875816345
+            ],
+            [
+              "twice",
+              0.5644217729568481
+            ]
+          ],
+          "expected_rank": 8,
+          "matches_gensim": true,
+          "difference_cosine": 0.4660097360610962,
+          "relative_residual": 0.5197332501411438
+        },
+        {
+          "type": "pasado",
+          "a": "walk",
+          "b": "walked",
+          "c": "play",
+          "expected": "played",
+          "without_exclusion": [
+            [
+              "play",
+              0.758017361164093
+            ],
+            [
+              "voce",
+              0.6558533310890198
+            ],
+            [
+              "playing",
+              0.6335291862487793
+            ],
+            [
+              "kicking",
+              0.6240227818489075
+            ],
+            [
+              "mccabe",
+              0.617355227470398
+            ]
+          ],
+          "expected_cosine": 0.6136751174926758,
+          "top5": [
+            [
+              "voce",
+              0.6558533310890198
+            ],
+            [
+              "playing",
+              0.6335291862487793
+            ],
+            [
+              "kicking",
+              0.6240227818489075
+            ],
+            [
+              "mccabe",
+              0.617355227470398
+            ],
+            [
+              "booed",
+              0.6159262657165527
+            ]
+          ],
+          "expected_rank": 6,
+          "matches_gensim": true,
+          "difference_cosine": 0.1597086787223816,
+          "relative_residual": 0.6485520005226135
+        },
+        {
+          "type": "plural",
+          "a": "cat",
+          "b": "cats",
+          "c": "dog",
+          "expected": "dogs",
+          "without_exclusion": [
+            [
+              "cats",
+              0.8057350516319275
+            ],
+            [
+              "foxes",
+              0.790217936038971
+            ],
+            [
+              "dogs",
+              0.7802509069442749
+            ],
+            [
+              "feral",
+              0.7558301091194153
+            ],
+            [
+              "hunted",
+              0.7557058334350586
+            ]
+          ],
+          "expected_cosine": 0.7802509069442749,
+          "top5": [
+            [
+              "foxes",
+              0.790217936038971
+            ],
+            [
+              "dogs",
+              0.7802509069442749
+            ],
+            [
+              "feral",
+              0.7558301091194153
+            ],
+            [
+              "hunted",
+              0.7557058334350586
+            ],
+            [
+              "terriers",
+              0.7541649341583252
+            ]
+          ],
+          "expected_rank": 2,
+          "matches_gensim": true,
+          "difference_cosine": 0.48081111907958984,
+          "relative_residual": 0.5345602035522461
+        },
+        {
+          "type": "plural",
+          "a": "car",
+          "b": "cars",
+          "c": "book",
+          "expected": "books",
+          "without_exclusion": [
+            [
+              "book",
+              0.8734450340270996
+            ],
+            [
+              "books",
+              0.7849146127700806
+            ],
+            [
+              "essays",
+              0.7407830953598022
+            ],
+            [
+              "reprinted",
+              0.7263284921646118
+            ],
+            [
+              "readership",
+              0.7187768220901489
+            ]
+          ],
+          "expected_cosine": 0.7849146127700806,
+          "top5": [
+            [
+              "books",
+              0.7849146127700806
+            ],
+            [
+              "essays",
+              0.7407830953598022
+            ],
+            [
+              "reprinted",
+              0.7263284921646118
+            ],
+            [
+              "readership",
+              0.7187768220901489
+            ],
+            [
+              "preface",
+              0.7072904706001282
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.1490079164505005,
+          "relative_residual": 0.6622676253318787
+        },
+        {
+          "type": "plural",
+          "a": "child",
+          "b": "children",
+          "c": "man",
+          "expected": "men",
+          "without_exclusion": [
+            [
+              "man",
+              0.7671438455581665
+            ],
+            [
+              "racket",
+              0.5105867981910706
+            ],
+            [
+              "monsters",
+              0.477295845746994
+            ],
+            [
+              "mr",
+              0.47445061802864075
+            ],
+            [
+              "fowl",
+              0.47151118516921997
+            ]
+          ],
+          "expected_cosine": 0.33686667680740356,
+          "top5": [
+            [
+              "racket",
+              0.5105867981910706
+            ],
+            [
+              "monsters",
+              0.477295845746994
+            ],
+            [
+              "mr",
+              0.47445061802864075
+            ],
+            [
+              "fowl",
+              0.47151118516921997
+            ],
+            [
+              "newby",
+              0.4673651456832886
+            ]
+          ],
+          "expected_rank": 1997,
+          "matches_gensim": true,
+          "difference_cosine": 0.18965569138526917,
+          "relative_residual": 0.6503323316574097
+        }
+      ],
+      "matches_gensim_all": true,
+      "parallelism_mean": 0.39248686141911004,
+      "top1_accuracy": 0.42857142857142855,
+      "oov_count": 0
+    }
+  },
+  "gensim": {
+    "vocab_size": 38569,
+    "dim": 100,
+    "analogies": {
+      "add": {
+        "accuracy": {
+          "semantic": 0.14612352168199738,
+          "syntactic": 0.25943226733740565,
+          "total": 0.22395919038999507
+        },
+        "categories": [
+          {
+            "category": "capital-common-countries",
+            "total": 506,
+            "evaluated": 462,
+            "coverage": 0.9130434782608695,
+            "correct": 119,
+            "accuracy": 0.25757575757575757
+          },
+          {
+            "category": "capital-world",
+            "total": 4524,
+            "evaluated": 1206,
+            "coverage": 0.26657824933687,
+            "correct": 217,
+            "accuracy": 0.1799336650082919
+          },
+          {
+            "category": "currency",
+            "total": 866,
+            "evaluated": 108,
+            "coverage": 0.12471131639722864,
+            "correct": 1,
+            "accuracy": 0.009259259259259259
+          },
+          {
+            "category": "city-in-state",
+            "total": 2467,
+            "evaluated": 1687,
+            "coverage": 0.6838265099310904,
+            "correct": 153,
+            "accuracy": 0.0906935388263189
+          },
+          {
+            "category": "family",
+            "total": 506,
+            "evaluated": 342,
+            "coverage": 0.6758893280632411,
+            "correct": 66,
+            "accuracy": 0.19298245614035087
+          },
+          {
+            "category": "gram1-adjective-to-adverb",
+            "total": 992,
+            "evaluated": 812,
+            "coverage": 0.8185483870967742,
+            "correct": 43,
+            "accuracy": 0.05295566502463054
+          },
+          {
+            "category": "gram2-opposite",
+            "total": 812,
+            "evaluated": 306,
+            "coverage": 0.3768472906403941,
+            "correct": 14,
+            "accuracy": 0.0457516339869281
+          },
+          {
+            "category": "gram3-comparative",
+            "total": 1332,
+            "evaluated": 1260,
+            "coverage": 0.9459459459459459,
+            "correct": 262,
+            "accuracy": 0.20793650793650795
+          },
+          {
+            "category": "gram4-superlative",
+            "total": 1122,
+            "evaluated": 702,
+            "coverage": 0.6256684491978609,
+            "correct": 81,
+            "accuracy": 0.11538461538461539
+          },
+          {
+            "category": "gram5-present-participle",
+            "total": 1056,
+            "evaluated": 870,
+            "coverage": 0.8238636363636364,
+            "correct": 191,
+            "accuracy": 0.21954022988505748
+          },
+          {
+            "category": "gram6-nationality-adjective",
+            "total": 1599,
+            "evaluated": 1299,
+            "coverage": 0.8123827392120075,
+            "correct": 690,
+            "accuracy": 0.5311778290993071
+          },
+          {
+            "category": "gram7-past-tense",
+            "total": 1560,
+            "evaluated": 1406,
+            "coverage": 0.9012820512820513,
+            "correct": 470,
+            "accuracy": 0.33428165007112376
+          },
+          {
+            "category": "gram8-plural",
+            "total": 1332,
+            "evaluated": 992,
+            "coverage": 0.7447447447447447,
+            "correct": 292,
+            "accuracy": 0.29435483870967744
+          },
+          {
+            "category": "gram9-plural-verbs",
+            "total": 870,
+            "evaluated": 702,
+            "coverage": 0.8068965517241379,
+            "correct": 123,
+            "accuracy": 0.1752136752136752
+          }
+        ],
+        "evaluated": 12154,
+        "total_questions": 19544,
+        "coverage": 0.6218788374948834,
+        "candidate_count": 30000
+      },
+      "mul": {
+        "accuracy": {
+          "semantic": 0.13613666228646518,
+          "syntactic": 0.21188166247454784,
+          "total": 0.18816850419614942
+        },
+        "categories": [
+          {
+            "category": "capital-common-countries",
+            "total": 506,
+            "evaluated": 462,
+            "coverage": 0.9130434782608695,
+            "correct": 115,
+            "accuracy": 0.24891774891774893
+          },
+          {
+            "category": "capital-world",
+            "total": 4524,
+            "evaluated": 1206,
+            "coverage": 0.26657824933687,
+            "correct": 202,
+            "accuracy": 0.16749585406301823
+          },
+          {
+            "category": "currency",
+            "total": 866,
+            "evaluated": 108,
+            "coverage": 0.12471131639722864,
+            "correct": 0,
+            "accuracy": 0.0
+          },
+          {
+            "category": "city-in-state",
+            "total": 2467,
+            "evaluated": 1687,
+            "coverage": 0.6838265099310904,
+            "correct": 143,
+            "accuracy": 0.08476585655008892
+          },
+          {
+            "category": "family",
+            "total": 506,
+            "evaluated": 342,
+            "coverage": 0.6758893280632411,
+            "correct": 58,
+            "accuracy": 0.1695906432748538
+          },
+          {
+            "category": "gram1-adjective-to-adverb",
+            "total": 992,
+            "evaluated": 812,
+            "coverage": 0.8185483870967742,
+            "correct": 29,
+            "accuracy": 0.03571428571428571
+          },
+          {
+            "category": "gram2-opposite",
+            "total": 812,
+            "evaluated": 306,
+            "coverage": 0.3768472906403941,
+            "correct": 6,
+            "accuracy": 0.0196078431372549
+          },
+          {
+            "category": "gram3-comparative",
+            "total": 1332,
+            "evaluated": 1260,
+            "coverage": 0.9459459459459459,
+            "correct": 221,
+            "accuracy": 0.17539682539682538
+          },
+          {
+            "category": "gram4-superlative",
+            "total": 1122,
+            "evaluated": 702,
+            "coverage": 0.6256684491978609,
+            "correct": 71,
+            "accuracy": 0.10113960113960115
+          },
+          {
+            "category": "gram5-present-participle",
+            "total": 1056,
+            "evaluated": 870,
+            "coverage": 0.8238636363636364,
+            "correct": 141,
+            "accuracy": 0.16206896551724137
+          },
+          {
+            "category": "gram6-nationality-adjective",
+            "total": 1599,
+            "evaluated": 1299,
+            "coverage": 0.8123827392120075,
+            "correct": 617,
+            "accuracy": 0.4749807544264819
+          },
+          {
+            "category": "gram7-past-tense",
+            "total": 1560,
+            "evaluated": 1406,
+            "coverage": 0.9012820512820513,
+            "correct": 360,
+            "accuracy": 0.25604551920341395
+          },
+          {
+            "category": "gram8-plural",
+            "total": 1332,
+            "evaluated": 992,
+            "coverage": 0.7447447447447447,
+            "correct": 225,
+            "accuracy": 0.22681451612903225
+          },
+          {
+            "category": "gram9-plural-verbs",
+            "total": 870,
+            "evaluated": 702,
+            "coverage": 0.8068965517241379,
+            "correct": 99,
+            "accuracy": 0.14102564102564102
+          }
+        ],
+        "evaluated": 12154,
+        "total_questions": 19544,
+        "coverage": 0.6218788374948834,
+        "candidate_count": 30000
+      }
+    },
+    "wordsim": {
+      "spearman": 0.6377982201359133,
+      "evaluated": 344,
+      "total": 353,
+      "coverage": 0.9745042492917847
+    },
+    "simlex": {
+      "spearman": 0.271117014813757,
+      "evaluated": 983,
+      "total": 999,
+      "coverage": 0.983983983983984
+    },
+    "individual": {
+      "queries": [
+        {
+          "type": "genero",
+          "a": "man",
+          "b": "woman",
+          "c": "king",
+          "expected": "queen",
+          "without_exclusion": [
+            [
+              "king",
+              0.7126541137695312
+            ],
+            [
+              "marriage",
+              0.6817952394485474
+            ],
+            [
+              "consort",
+              0.6589519381523132
+            ],
+            [
+              "regent",
+              0.6448789834976196
+            ],
+            [
+              "childless",
+              0.6441709995269775
+            ]
+          ],
+          "expected_cosine": 0.6068953275680542,
+          "top5": [
+            [
+              "marriage",
+              0.6817952394485474
+            ],
+            [
+              "consort",
+              0.6589519381523132
+            ],
+            [
+              "regent",
+              0.6448789834976196
+            ],
+            [
+              "childless",
+              0.6441709995269775
+            ],
+            [
+              "duchess",
+              0.6410714387893677
+            ]
+          ],
+          "expected_rank": 39,
+          "matches_gensim": true,
+          "difference_cosine": 0.2809719443321228,
+          "relative_residual": 0.5996138453483582
+        },
+        {
+          "type": "genero",
+          "a": "boy",
+          "b": "girl",
+          "c": "brother",
+          "expected": "sister",
+          "without_exclusion": [
+            [
+              "brother",
+              0.7409980297088623
+            ],
+            [
+              "fathered",
+              0.7394896745681763
+            ],
+            [
+              "cousin",
+              0.7126181125640869
+            ],
+            [
+              "daughter",
+              0.7098795175552368
+            ],
+            [
+              "wed",
+              0.7014313340187073
+            ]
+          ],
+          "expected_cosine": 0.5600565671920776,
+          "top5": [
+            [
+              "fathered",
+              0.7394896745681763
+            ],
+            [
+              "cousin",
+              0.7126181125640869
+            ],
+            [
+              "daughter",
+              0.7098795175552368
+            ],
+            [
+              "wed",
+              0.7014313340187073
+            ],
+            [
+              "judith",
+              0.6994190216064453
+            ]
+          ],
+          "expected_rank": 298,
+          "matches_gensim": true,
+          "difference_cosine": 0.24393583834171295,
+          "relative_residual": 0.6161138415336609
+        },
+        {
+          "type": "genero",
+          "a": "father",
+          "b": "mother",
+          "c": "son",
+          "expected": "daughter",
+          "without_exclusion": [
+            [
+              "mother",
+              0.8577408790588379
+            ],
+            [
+              "son",
+              0.8339000940322876
+            ],
+            [
+              "daughter",
+              0.798553466796875
+            ],
+            [
+              "stillborn",
+              0.7842562198638916
+            ],
+            [
+              "wife",
+              0.7776839733123779
+            ]
+          ],
+          "expected_cosine": 0.798553466796875,
+          "top5": [
+            [
+              "daughter",
+              0.798553466796875
+            ],
+            [
+              "stillborn",
+              0.7842562198638916
+            ],
+            [
+              "wife",
+              0.7776839733123779
+            ],
+            [
+              "widowed",
+              0.7419300079345703
+            ],
+            [
+              "fathered",
+              0.7385693788528442
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.3408302366733551,
+          "relative_residual": 0.5743185877799988
+        },
+        {
+          "type": "capital",
+          "a": "france",
+          "b": "paris",
+          "c": "germany",
+          "expected": "berlin",
+          "without_exclusion": [
+            [
+              "berlin",
+              0.8266746997833252
+            ],
+            [
+              "germany",
+              0.7284338474273682
+            ],
+            [
+              "moscow",
+              0.7239640355110168
+            ],
+            [
+              "paris",
+              0.7234933376312256
+            ],
+            [
+              "riefenstahl",
+              0.709423303604126
+            ]
+          ],
+          "expected_cosine": 0.8266746997833252,
+          "top5": [
+            [
+              "berlin",
+              0.8266746997833252
+            ],
+            [
+              "moscow",
+              0.7239640355110168
+            ],
+            [
+              "riefenstahl",
+              0.709423303604126
+            ],
+            [
+              "vienna",
+              0.7052837610244751
+            ],
+            [
+              "munich",
+              0.6911774277687073
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.6588364839553833,
+          "relative_residual": 0.41303813457489014
+        },
+        {
+          "type": "capital",
+          "a": "italy",
+          "b": "rome",
+          "c": "japan",
+          "expected": "tokyo",
+          "without_exclusion": [
+            [
+              "ryse",
+              0.671877920627594
+            ],
+            [
+              "japan",
+              0.6705024242401123
+            ],
+            [
+              "playstation",
+              0.6469999551773071
+            ],
+            [
+              "capcom",
+              0.6389294862747192
+            ],
+            [
+              "nintendo",
+              0.635017454624176
+            ]
+          ],
+          "expected_cosine": 0.5319863557815552,
+          "top5": [
+            [
+              "ryse",
+              0.671877920627594
+            ],
+            [
+              "playstation",
+              0.6469999551773071
+            ],
+            [
+              "capcom",
+              0.6389294862747192
+            ],
+            [
+              "nintendo",
+              0.635017454624176
+            ],
+            [
+              "empires",
+              0.630029022693634
+            ]
+          ],
+          "expected_rank": 141,
+          "matches_gensim": true,
+          "difference_cosine": 0.19207033514976501,
+          "relative_residual": 0.6373700499534607
+        },
+        {
+          "type": "capital",
+          "a": "spain",
+          "b": "madrid",
+          "c": "england",
+          "expected": "london",
+          "without_exclusion": [
+            [
+              "fixture",
+              0.7626079320907593
+            ],
+            [
+              "stoke",
+              0.7613966464996338
+            ],
+            [
+              "trafford",
+              0.7606431245803833
+            ],
+            [
+              "aston",
+              0.7586503028869629
+            ],
+            [
+              "gillingham",
+              0.742713212966919
+            ]
+          ],
+          "expected_cosine": 0.449566125869751,
+          "top5": [
+            [
+              "fixture",
+              0.7626079320907593
+            ],
+            [
+              "stoke",
+              0.7613966464996338
+            ],
+            [
+              "trafford",
+              0.7606431245803833
+            ],
+            [
+              "aston",
+              0.7586503028869629
+            ],
+            [
+              "gillingham",
+              0.742713212966919
+            ]
+          ],
+          "expected_rank": 1068,
+          "matches_gensim": true,
+          "difference_cosine": 0.16393983364105225,
+          "relative_residual": 0.6471866369247437
+        },
+        {
+          "type": "gentilicio",
+          "a": "france",
+          "b": "french",
+          "c": "germany",
+          "expected": "german",
+          "without_exclusion": [
+            [
+              "german",
+              0.7561564445495605
+            ],
+            [
+              "russian",
+              0.7282375693321228
+            ],
+            [
+              "french",
+              0.6946671009063721
+            ],
+            [
+              "germany",
+              0.6837977766990662
+            ],
+            [
+              "austrian",
+              0.6696510314941406
+            ]
+          ],
+          "expected_cosine": 0.7561564445495605,
+          "top5": [
+            [
+              "german",
+              0.7561564445495605
+            ],
+            [
+              "russian",
+              0.7282375693321228
+            ],
+            [
+              "austrian",
+              0.6696510314941406
+            ],
+            [
+              "italian",
+              0.6565947532653809
+            ],
+            [
+              "bolsheviks",
+              0.6338049173355103
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.5793145895004272,
+          "relative_residual": 0.4597989320755005
+        },
+        {
+          "type": "gentilicio",
+          "a": "japan",
+          "b": "japanese",
+          "c": "china",
+          "expected": "chinese",
+          "without_exclusion": [
+            [
+              "chinese",
+              0.7775830030441284
+            ],
+            [
+              "china",
+              0.7047099471092224
+            ],
+            [
+              "japanese",
+              0.6822227835655212
+            ],
+            [
+              "java",
+              0.6627517342567444
+            ],
+            [
+              "nanking",
+              0.5856193900108337
+            ]
+          ],
+          "expected_cosine": 0.7775830030441284,
+          "top5": [
+            [
+              "chinese",
+              0.7775830030441284
+            ],
+            [
+              "java",
+              0.6627517342567444
+            ],
+            [
+              "nanking",
+              0.5856193900108337
+            ],
+            [
+              "sino",
+              0.5835254192352295
+            ],
+            [
+              "korean",
+              0.5775904059410095
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.5683474540710449,
+          "relative_residual": 0.4677661955356598
+        },
+        {
+          "type": "gentilicio",
+          "a": "italy",
+          "b": "italian",
+          "c": "spain",
+          "expected": "spanish",
+          "without_exclusion": [
+            [
+              "italian",
+              0.8237107992172241
+            ],
+            [
+              "spanish",
+              0.7519546747207642
+            ],
+            [
+              "espa",
+              0.7421914339065552
+            ],
+            [
+              "portuguese",
+              0.6977062225341797
+            ],
+            [
+              "vasco",
+              0.6970516443252563
+            ]
+          ],
+          "expected_cosine": 0.7519546747207642,
+          "top5": [
+            [
+              "spanish",
+              0.7519546747207642
+            ],
+            [
+              "espa",
+              0.7421914339065552
+            ],
+            [
+              "portuguese",
+              0.6977062225341797
+            ],
+            [
+              "vasco",
+              0.6970516443252563
+            ],
+            [
+              "lix",
+              0.6953877806663513
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.6470023989677429,
+          "relative_residual": 0.4204249680042267
+        },
+        {
+          "type": "comparativo",
+          "a": "good",
+          "b": "better",
+          "c": "bad",
+          "expected": "worse",
+          "without_exclusion": [
+            [
+              "better",
+              0.7333896160125732
+            ],
+            [
+              "bad",
+              0.7187108993530273
+            ],
+            [
+              "bigger",
+              0.617207944393158
+            ],
+            [
+              "wanting",
+              0.5722014307975769
+            ],
+            [
+              "bets",
+              0.5513013601303101
+            ]
+          ],
+          "expected_cosine": 0.5167505145072937,
+          "top5": [
+            [
+              "bigger",
+              0.617207944393158
+            ],
+            [
+              "wanting",
+              0.5722014307975769
+            ],
+            [
+              "bets",
+              0.5513013601303101
+            ],
+            [
+              "get",
+              0.5433622002601624
+            ],
+            [
+              "stupid",
+              0.540786862373352
+            ]
+          ],
+          "expected_rank": 16,
+          "matches_gensim": true,
+          "difference_cosine": 0.2192513644695282,
+          "relative_residual": 0.625881016254425
+        },
+        {
+          "type": "comparativo",
+          "a": "small",
+          "b": "smaller",
+          "c": "large",
+          "expected": "larger",
+          "without_exclusion": [
+            [
+              "smaller",
+              0.8441600203514099
+            ],
+            [
+              "large",
+              0.775867223739624
+            ],
+            [
+              "larger",
+              0.7353776693344116
+            ],
+            [
+              "size",
+              0.7108289003372192
+            ],
+            [
+              "sizes",
+              0.6266251802444458
+            ]
+          ],
+          "expected_cosine": 0.7353776693344116,
+          "top5": [
+            [
+              "larger",
+              0.7353776693344116
+            ],
+            [
+              "size",
+              0.7108289003372192
+            ],
+            [
+              "sizes",
+              0.6266251802444458
+            ],
+            [
+              "relatively",
+              0.6047698259353638
+            ],
+            [
+              "scaled",
+              0.5976793766021729
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.4424024522304535,
+          "relative_residual": 0.5280673503875732
+        },
+        {
+          "type": "comparativo",
+          "a": "fast",
+          "b": "faster",
+          "c": "slow",
+          "expected": "slower",
+          "without_exclusion": [
+            [
+              "faster",
+              0.7477191090583801
+            ],
+            [
+              "slow",
+              0.7156068682670593
+            ],
+            [
+              "slowing",
+              0.7095589637756348
+            ],
+            [
+              "slower",
+              0.6904008388519287
+            ],
+            [
+              "elapsed",
+              0.6368502974510193
+            ]
+          ],
+          "expected_cosine": 0.6904008388519287,
+          "top5": [
+            [
+              "slowing",
+              0.7095589637756348
+            ],
+            [
+              "slower",
+              0.6904008388519287
+            ],
+            [
+              "elapsed",
+              0.6368502974510193
+            ],
+            [
+              "weaker",
+              0.628278374671936
+            ],
+            [
+              "slowed",
+              0.6255114078521729
+            ]
+          ],
+          "expected_rank": 2,
+          "matches_gensim": true,
+          "difference_cosine": 0.5028122663497925,
+          "relative_residual": 0.49878859519958496
+        },
+        {
+          "type": "superlativo",
+          "a": "small",
+          "b": "smallest",
+          "c": "large",
+          "expected": "largest",
+          "without_exclusion": [
+            [
+              "smallest",
+              0.8399326801300049
+            ],
+            [
+              "size",
+              0.6873061656951904
+            ],
+            [
+              "fatalis",
+              0.6568720936775208
+            ],
+            [
+              "diplodocus",
+              0.6515567302703857
+            ],
+            [
+              "spelea",
+              0.6485311388969421
+            ]
+          ],
+          "expected_cosine": 0.5505976676940918,
+          "top5": [
+            [
+              "size",
+              0.6873061656951904
+            ],
+            [
+              "fatalis",
+              0.6568720936775208
+            ],
+            [
+              "diplodocus",
+              0.6515567302703857
+            ],
+            [
+              "spelea",
+              0.6485311388969421
+            ],
+            [
+              "gracilis",
+              0.6389405727386475
+            ]
+          ],
+          "expected_rank": 252,
+          "matches_gensim": true,
+          "difference_cosine": 0.42331695556640625,
+          "relative_residual": 0.5382705330848694
+        },
+        {
+          "type": "superlativo",
+          "a": "good",
+          "b": "best",
+          "c": "bad",
+          "expected": "worst",
+          "without_exclusion": [
+            [
+              "best",
+              0.7846306562423706
+            ],
+            [
+              "awards",
+              0.7166591882705688
+            ],
+            [
+              "gma",
+              0.6923857927322388
+            ],
+            [
+              "brit",
+              0.677149772644043
+            ],
+            [
+              "jop",
+              0.6676134467124939
+            ]
+          ],
+          "expected_cosine": 0.47211048007011414,
+          "top5": [
+            [
+              "awards",
+              0.7166591882705688
+            ],
+            [
+              "gma",
+              0.6923857927322388
+            ],
+            [
+              "brit",
+              0.677149772644043
+            ],
+            [
+              "jop",
+              0.6676134467124939
+            ],
+            [
+              "muchmusic",
+              0.6657984852790833
+            ]
+          ],
+          "expected_rank": 695,
+          "matches_gensim": true,
+          "difference_cosine": 0.28296154737472534,
+          "relative_residual": 0.5996540188789368
+        },
+        {
+          "type": "superlativo",
+          "a": "high",
+          "b": "highest",
+          "c": "low",
+          "expected": "lowest",
+          "without_exclusion": [
+            [
+              "highest",
+              0.7026011347770691
+            ],
+            [
+              "lowest",
+              0.6540889143943787
+            ],
+            [
+              "fluctuated",
+              0.6279566287994385
+            ],
+            [
+              "decrease",
+              0.6121446490287781
+            ],
+            [
+              "aggregated",
+              0.6086456775665283
+            ]
+          ],
+          "expected_cosine": 0.6540889143943787,
+          "top5": [
+            [
+              "lowest",
+              0.6540889143943787
+            ],
+            [
+              "fluctuated",
+              0.6279566287994385
+            ],
+            [
+              "decrease",
+              0.6121446490287781
+            ],
+            [
+              "aggregated",
+              0.6086456775665283
+            ],
+            [
+              "grosses",
+              0.6062919497489929
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.6150367259979248,
+          "relative_residual": 0.4400545358657837
+        },
+        {
+          "type": "pasado",
+          "a": "run",
+          "b": "ran",
+          "c": "swim",
+          "expected": "swam",
+          "without_exclusion": [
+            [
+              "swim",
+              0.7540695071220398
+            ],
+            [
+              "swimming",
+              0.6749235987663269
+            ],
+            [
+              "swam",
+              0.6481389999389648
+            ],
+            [
+              "swimmers",
+              0.6308302879333496
+            ],
+            [
+              "swimmer",
+              0.6147546768188477
+            ]
+          ],
+          "expected_cosine": 0.6481389999389648,
+          "top5": [
+            [
+              "swimming",
+              0.6749235987663269
+            ],
+            [
+              "swam",
+              0.6481389999389648
+            ],
+            [
+              "swimmers",
+              0.6308302879333496
+            ],
+            [
+              "swimmer",
+              0.6147546768188477
+            ],
+            [
+              "sledge",
+              0.5805074572563171
+            ]
+          ],
+          "expected_rank": 2,
+          "matches_gensim": true,
+          "difference_cosine": 0.2254168838262558,
+          "relative_residual": 0.6224099397659302
+        },
+        {
+          "type": "pasado",
+          "a": "go",
+          "b": "went",
+          "c": "see",
+          "expected": "saw",
+          "without_exclusion": [
+            [
+              "went",
+              0.7718576192855835
+            ],
+            [
+              "came",
+              0.6652635335922241
+            ],
+            [
+              "see",
+              0.6585438251495361
+            ],
+            [
+              "saw",
+              0.5537062883377075
+            ],
+            [
+              "took",
+              0.5510247945785522
+            ]
+          ],
+          "expected_cosine": 0.5537062883377075,
+          "top5": [
+            [
+              "came",
+              0.6652635335922241
+            ],
+            [
+              "saw",
+              0.5537062883377075
+            ],
+            [
+              "took",
+              0.5510247945785522
+            ],
+            [
+              "seemed",
+              0.5315749049186707
+            ],
+            [
+              "gasp",
+              0.5228448510169983
+            ]
+          ],
+          "expected_rank": 2,
+          "matches_gensim": true,
+          "difference_cosine": 0.47053906321525574,
+          "relative_residual": 0.5174358487129211
+        },
+        {
+          "type": "pasado",
+          "a": "walk",
+          "b": "walked",
+          "c": "play",
+          "expected": "played",
+          "without_exclusion": [
+            [
+              "play",
+              0.7415643930435181
+            ],
+            [
+              "playing",
+              0.6556846499443054
+            ],
+            [
+              "voce",
+              0.6531027555465698
+            ],
+            [
+              "dudek",
+              0.6344902515411377
+            ],
+            [
+              "booed",
+              0.628365159034729
+            ]
+          ],
+          "expected_cosine": 0.6179805994033813,
+          "top5": [
+            [
+              "playing",
+              0.6556846499443054
+            ],
+            [
+              "voce",
+              0.6531027555465698
+            ],
+            [
+              "dudek",
+              0.6344902515411377
+            ],
+            [
+              "booed",
+              0.628365159034729
+            ],
+            [
+              "jenkyns",
+              0.6261903643608093
+            ]
+          ],
+          "expected_rank": 8,
+          "matches_gensim": true,
+          "difference_cosine": 0.18092137575149536,
+          "relative_residual": 0.6426360011100769
+        },
+        {
+          "type": "plural",
+          "a": "cat",
+          "b": "cats",
+          "c": "dog",
+          "expected": "dogs",
+          "without_exclusion": [
+            [
+              "cats",
+              0.8326271772384644
+            ],
+            [
+              "foxes",
+              0.7609750628471375
+            ],
+            [
+              "hunted",
+              0.7502063512802124
+            ],
+            [
+              "feral",
+              0.7274951934814453
+            ],
+            [
+              "pets",
+              0.722143828868866
+            ]
+          ],
+          "expected_cosine": 0.7102688550949097,
+          "top5": [
+            [
+              "foxes",
+              0.7609750628471375
+            ],
+            [
+              "hunted",
+              0.7502063512802124
+            ],
+            [
+              "feral",
+              0.7274951934814453
+            ],
+            [
+              "pets",
+              0.722143828868866
+            ],
+            [
+              "hyenas",
+              0.7205699682235718
+            ]
+          ],
+          "expected_rank": 8,
+          "matches_gensim": true,
+          "difference_cosine": 0.38932564854621887,
+          "relative_residual": 0.5665172338485718
+        },
+        {
+          "type": "plural",
+          "a": "car",
+          "b": "cars",
+          "c": "book",
+          "expected": "books",
+          "without_exclusion": [
+            [
+              "book",
+              0.8679425716400146
+            ],
+            [
+              "books",
+              0.7751107215881348
+            ],
+            [
+              "anthologies",
+              0.7719374895095825
+            ],
+            [
+              "editions",
+              0.7605428695678711
+            ],
+            [
+              "reprinted",
+              0.7601259350776672
+            ]
+          ],
+          "expected_cosine": 0.7751107215881348,
+          "top5": [
+            [
+              "books",
+              0.7751107215881348
+            ],
+            [
+              "anthologies",
+              0.7719374895095825
+            ],
+            [
+              "editions",
+              0.7605428695678711
+            ],
+            [
+              "reprinted",
+              0.7601259350776672
+            ],
+            [
+              "printings",
+              0.7459956407546997
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.21025796234607697,
+          "relative_residual": 0.629334568977356
+        },
+        {
+          "type": "plural",
+          "a": "child",
+          "b": "children",
+          "c": "man",
+          "expected": "men",
+          "without_exclusion": [
+            [
+              "man",
+              0.780422568321228
+            ],
+            [
+              "doc",
+              0.5554689168930054
+            ],
+            [
+              "colt",
+              0.5482945442199707
+            ],
+            [
+              "heroes",
+              0.5433849096298218
+            ],
+            [
+              "dietz",
+              0.5368165373802185
+            ]
+          ],
+          "expected_cosine": 0.4543892741203308,
+          "top5": [
+            [
+              "doc",
+              0.5554689168930054
+            ],
+            [
+              "colt",
+              0.5482945442199707
+            ],
+            [
+              "heroes",
+              0.5433849096298218
+            ],
+            [
+              "dietz",
+              0.5368165373802185
+            ],
+            [
+              "myron",
+              0.5333551168441772
+            ]
+          ],
+          "expected_rank": 461,
+          "matches_gensim": true,
+          "difference_cosine": 0.3593582808971405,
+          "relative_residual": 0.5865588784217834
+        }
+      ],
+      "matches_gensim_all": true,
+      "parallelism_mean": 0.38080236386685146,
+      "top1_accuracy": 0.38095238095238093,
+      "oov_count": 0
+    }
+  },
+  "GloVe": {
+    "vocab_size": 400000,
+    "dim": 100,
+    "analogies": {
+      "add": {
+        "accuracy": {
+          "semantic": 0.6136662286465178,
+          "syntactic": 0.6776859504132231,
+          "total": 0.657643574131973
+        },
+        "categories": [
+          {
+            "category": "capital-common-countries",
+            "total": 506,
+            "evaluated": 462,
+            "coverage": 0.9130434782608695,
+            "correct": 434,
+            "accuracy": 0.9393939393939394
+          },
+          {
+            "category": "capital-world",
+            "total": 4524,
+            "evaluated": 1206,
+            "coverage": 0.26657824933687,
+            "correct": 1077,
+            "accuracy": 0.8930348258706468
+          },
+          {
+            "category": "currency",
+            "total": 866,
+            "evaluated": 108,
+            "coverage": 0.12471131639722864,
+            "correct": 5,
+            "accuracy": 0.046296296296296294
+          },
+          {
+            "category": "city-in-state",
+            "total": 2467,
+            "evaluated": 1687,
+            "coverage": 0.6838265099310904,
+            "correct": 517,
+            "accuracy": 0.3064611736810907
+          },
+          {
+            "category": "family",
+            "total": 506,
+            "evaluated": 342,
+            "coverage": 0.6758893280632411,
+            "correct": 302,
+            "accuracy": 0.8830409356725146
+          },
+          {
+            "category": "gram1-adjective-to-adverb",
+            "total": 992,
+            "evaluated": 812,
+            "coverage": 0.8185483870967742,
+            "correct": 226,
+            "accuracy": 0.27832512315270935
+          },
+          {
+            "category": "gram2-opposite",
+            "total": 812,
+            "evaluated": 306,
+            "coverage": 0.3768472906403941,
+            "correct": 86,
+            "accuracy": 0.28104575163398693
+          },
+          {
+            "category": "gram3-comparative",
+            "total": 1332,
+            "evaluated": 1260,
+            "coverage": 0.9459459459459459,
+            "correct": 1013,
+            "accuracy": 0.803968253968254
+          },
+          {
+            "category": "gram4-superlative",
+            "total": 1122,
+            "evaluated": 702,
+            "coverage": 0.6256684491978609,
+            "correct": 430,
+            "accuracy": 0.6125356125356125
+          },
+          {
+            "category": "gram5-present-participle",
+            "total": 1056,
+            "evaluated": 870,
+            "coverage": 0.8238636363636364,
+            "correct": 637,
+            "accuracy": 0.732183908045977
+          },
+          {
+            "category": "gram6-nationality-adjective",
+            "total": 1599,
+            "evaluated": 1299,
+            "coverage": 0.8123827392120075,
+            "correct": 1265,
+            "accuracy": 0.9738260200153964
+          },
+          {
+            "category": "gram7-past-tense",
+            "total": 1560,
+            "evaluated": 1406,
+            "coverage": 0.9012820512820513,
+            "correct": 809,
+            "accuracy": 0.5753911806543386
+          },
+          {
+            "category": "gram8-plural",
+            "total": 1332,
+            "evaluated": 992,
+            "coverage": 0.7447447447447447,
+            "correct": 786,
+            "accuracy": 0.7923387096774194
+          },
+          {
+            "category": "gram9-plural-verbs",
+            "total": 870,
+            "evaluated": 702,
+            "coverage": 0.8068965517241379,
+            "correct": 406,
+            "accuracy": 0.5783475783475783
+          }
+        ],
+        "evaluated": 12154,
+        "total_questions": 19544,
+        "coverage": 0.6218788374948834,
+        "candidate_count": 30000
+      },
+      "mul": {
+        "accuracy": {
+          "semantic": 0.5879106438896189,
+          "syntactic": 0.6624745478500419,
+          "total": 0.6391311502386046
+        },
+        "categories": [
+          {
+            "category": "capital-common-countries",
+            "total": 506,
+            "evaluated": 462,
+            "coverage": 0.9130434782608695,
+            "correct": 425,
+            "accuracy": 0.9199134199134199
+          },
+          {
+            "category": "capital-world",
+            "total": 4524,
+            "evaluated": 1206,
+            "coverage": 0.26657824933687,
+            "correct": 1049,
+            "accuracy": 0.8698175787728026
+          },
+          {
+            "category": "currency",
+            "total": 866,
+            "evaluated": 108,
+            "coverage": 0.12471131639722864,
+            "correct": 5,
+            "accuracy": 0.046296296296296294
+          },
+          {
+            "category": "city-in-state",
+            "total": 2467,
+            "evaluated": 1687,
+            "coverage": 0.6838265099310904,
+            "correct": 459,
+            "accuracy": 0.2720806164789567
+          },
+          {
+            "category": "family",
+            "total": 506,
+            "evaluated": 342,
+            "coverage": 0.6758893280632411,
+            "correct": 299,
+            "accuracy": 0.8742690058479532
+          },
+          {
+            "category": "gram1-adjective-to-adverb",
+            "total": 992,
+            "evaluated": 812,
+            "coverage": 0.8185483870967742,
+            "correct": 227,
+            "accuracy": 0.27955665024630544
+          },
+          {
+            "category": "gram2-opposite",
+            "total": 812,
+            "evaluated": 306,
+            "coverage": 0.3768472906403941,
+            "correct": 75,
+            "accuracy": 0.24509803921568626
+          },
+          {
+            "category": "gram3-comparative",
+            "total": 1332,
+            "evaluated": 1260,
+            "coverage": 0.9459459459459459,
+            "correct": 982,
+            "accuracy": 0.7793650793650794
+          },
+          {
+            "category": "gram4-superlative",
+            "total": 1122,
+            "evaluated": 702,
+            "coverage": 0.6256684491978609,
+            "correct": 433,
+            "accuracy": 0.6168091168091168
+          },
+          {
+            "category": "gram5-present-participle",
+            "total": 1056,
+            "evaluated": 870,
+            "coverage": 0.8238636363636364,
+            "correct": 628,
+            "accuracy": 0.7218390804597701
+          },
+          {
+            "category": "gram6-nationality-adjective",
+            "total": 1599,
+            "evaluated": 1299,
+            "coverage": 0.8123827392120075,
+            "correct": 1245,
+            "accuracy": 0.9584295612009238
+          },
+          {
+            "category": "gram7-past-tense",
+            "total": 1560,
+            "evaluated": 1406,
+            "coverage": 0.9012820512820513,
+            "correct": 773,
+            "accuracy": 0.5497866287339972
+          },
+          {
+            "category": "gram8-plural",
+            "total": 1332,
+            "evaluated": 992,
+            "coverage": 0.7447447447447447,
+            "correct": 748,
+            "accuracy": 0.7540322580645161
+          },
+          {
+            "category": "gram9-plural-verbs",
+            "total": 870,
+            "evaluated": 702,
+            "coverage": 0.8068965517241379,
+            "correct": 420,
+            "accuracy": 0.5982905982905983
+          }
+        ],
+        "evaluated": 12154,
+        "total_questions": 19544,
+        "coverage": 0.6218788374948834,
+        "candidate_count": 30000
+      }
+    },
+    "wordsim": {
+      "spearman": 0.5327354323238274,
+      "evaluated": 353,
+      "total": 353,
+      "coverage": 1.0
+    },
+    "simlex": {
+      "spearman": 0.29754985300614595,
+      "evaluated": 999,
+      "total": 999,
+      "coverage": 1.0
+    },
+    "individual": {
+      "queries": [
+        {
+          "type": "genero",
+          "a": "man",
+          "b": "woman",
+          "c": "king",
+          "expected": "queen",
+          "without_exclusion": [
+            [
+              "king",
+              0.8360679745674133
+            ],
+            [
+              "queen",
+              0.7698540687561035
+            ],
+            [
+              "monarch",
+              0.6843380928039551
+            ],
+            [
+              "throne",
+              0.6755735874176025
+            ],
+            [
+              "daughter",
+              0.6594556570053101
+            ]
+          ],
+          "expected_cosine": 0.7698540687561035,
+          "top5": [
+            [
+              "queen",
+              0.7698540687561035
+            ],
+            [
+              "monarch",
+              0.6843380928039551
+            ],
+            [
+              "throne",
+              0.6755735874176025
+            ],
+            [
+              "daughter",
+              0.6594556570053101
+            ],
+            [
+              "princess",
+              0.6520532965660095
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.4509960412979126,
+          "relative_residual": 0.5338008999824524
+        },
+        {
+          "type": "genero",
+          "a": "boy",
+          "b": "girl",
+          "c": "brother",
+          "expected": "sister",
+          "without_exclusion": [
+            [
+              "brother",
+              0.9152929782867432
+            ],
+            [
+              "daughter",
+              0.8896641731262207
+            ],
+            [
+              "wife",
+              0.8840446472167969
+            ],
+            [
+              "father",
+              0.876602053642273
+            ],
+            [
+              "cousin",
+              0.8665470480918884
+            ]
+          ],
+          "expected_cosine": 0.8404760360717773,
+          "top5": [
+            [
+              "daughter",
+              0.8896641731262207
+            ],
+            [
+              "wife",
+              0.8840446472167969
+            ],
+            [
+              "father",
+              0.876602053642273
+            ],
+            [
+              "cousin",
+              0.8665470480918884
+            ],
+            [
+              "son",
+              0.8636597394943237
+            ]
+          ],
+          "expected_rank": 6,
+          "matches_gensim": true,
+          "difference_cosine": 0.6390542984008789,
+          "relative_residual": 0.48537677526474
+        },
+        {
+          "type": "genero",
+          "a": "father",
+          "b": "mother",
+          "c": "son",
+          "expected": "daughter",
+          "without_exclusion": [
+            [
+              "daughter",
+              0.9525263905525208
+            ],
+            [
+              "mother",
+              0.9224925637245178
+            ],
+            [
+              "wife",
+              0.8872843384742737
+            ],
+            [
+              "son",
+              0.8628857135772705
+            ],
+            [
+              "sister",
+              0.8434264063835144
+            ]
+          ],
+          "expected_cosine": 0.9525263905525208,
+          "top5": [
+            [
+              "daughter",
+              0.9525263905525208
+            ],
+            [
+              "wife",
+              0.8872843384742737
+            ],
+            [
+              "sister",
+              0.8434264063835144
+            ],
+            [
+              "niece",
+              0.8197184801101685
+            ],
+            [
+              "husband",
+              0.8192030191421509
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.823345422744751,
+          "relative_residual": 0.29775750637054443
+        },
+        {
+          "type": "capital",
+          "a": "france",
+          "b": "paris",
+          "c": "germany",
+          "expected": "berlin",
+          "without_exclusion": [
+            [
+              "berlin",
+              0.8846380710601807
+            ],
+            [
+              "frankfurt",
+              0.7985544204711914
+            ],
+            [
+              "vienna",
+              0.76759934425354
+            ],
+            [
+              "munich",
+              0.7542588710784912
+            ],
+            [
+              "germany",
+              0.7539961934089661
+            ]
+          ],
+          "expected_cosine": 0.8846380710601807,
+          "top5": [
+            [
+              "berlin",
+              0.8846380710601807
+            ],
+            [
+              "frankfurt",
+              0.7985544204711914
+            ],
+            [
+              "vienna",
+              0.76759934425354
+            ],
+            [
+              "munich",
+              0.7542588710784912
+            ],
+            [
+              "hamburg",
+              0.718237042427063
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.782346248626709,
+          "relative_residual": 0.3300178349018097
+        },
+        {
+          "type": "capital",
+          "a": "italy",
+          "b": "rome",
+          "c": "japan",
+          "expected": "tokyo",
+          "without_exclusion": [
+            [
+              "tokyo",
+              0.7762304544448853
+            ],
+            [
+              "japan",
+              0.6721633076667786
+            ],
+            [
+              "beijing",
+              0.6690279245376587
+            ],
+            [
+              "seoul",
+              0.6478397846221924
+            ],
+            [
+              "osaka",
+              0.6367850303649902
+            ]
+          ],
+          "expected_cosine": 0.7762304544448853,
+          "top5": [
+            [
+              "tokyo",
+              0.7762304544448853
+            ],
+            [
+              "beijing",
+              0.6690279245376587
+            ],
+            [
+              "seoul",
+              0.6478397846221924
+            ],
+            [
+              "osaka",
+              0.6367850303649902
+            ],
+            [
+              "moscow",
+              0.616970956325531
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.6324335336685181,
+          "relative_residual": 0.4304507374763489
+        },
+        {
+          "type": "capital",
+          "a": "spain",
+          "b": "madrid",
+          "c": "england",
+          "expected": "london",
+          "without_exclusion": [
+            [
+              "manchester",
+              0.8262482285499573
+            ],
+            [
+              "leeds",
+              0.8183410167694092
+            ],
+            [
+              "newcastle",
+              0.7922090291976929
+            ],
+            [
+              "birmingham",
+              0.7816604375839233
+            ],
+            [
+              "liverpool",
+              0.7790689468383789
+            ]
+          ],
+          "expected_cosine": 0.6598688960075378,
+          "top5": [
+            [
+              "manchester",
+              0.8262482285499573
+            ],
+            [
+              "leeds",
+              0.8183410167694092
+            ],
+            [
+              "newcastle",
+              0.7922090291976929
+            ],
+            [
+              "birmingham",
+              0.7816604375839233
+            ],
+            [
+              "liverpool",
+              0.7790689468383789
+            ]
+          ],
+          "expected_rank": 16,
+          "matches_gensim": true,
+          "difference_cosine": 0.3889666199684143,
+          "relative_residual": 0.5559495687484741
+        },
+        {
+          "type": "gentilicio",
+          "a": "france",
+          "b": "french",
+          "c": "germany",
+          "expected": "german",
+          "without_exclusion": [
+            [
+              "german",
+              0.9596726894378662
+            ],
+            [
+              "germany",
+              0.7963168621063232
+            ],
+            [
+              "austrian",
+              0.7773436307907104
+            ],
+            [
+              "swiss",
+              0.7663086652755737
+            ],
+            [
+              "swedish",
+              0.7341679930686951
+            ]
+          ],
+          "expected_cosine": 0.9596726894378662,
+          "top5": [
+            [
+              "german",
+              0.9596726894378662
+            ],
+            [
+              "austrian",
+              0.7773436307907104
+            ],
+            [
+              "swiss",
+              0.7663086652755737
+            ],
+            [
+              "swedish",
+              0.7341679930686951
+            ],
+            [
+              "polish",
+              0.725985050201416
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.9025713205337524,
+          "relative_residual": 0.221979022026062
+        },
+        {
+          "type": "gentilicio",
+          "a": "japan",
+          "b": "japanese",
+          "c": "china",
+          "expected": "chinese",
+          "without_exclusion": [
+            [
+              "chinese",
+              0.9533727169036865
+            ],
+            [
+              "china",
+              0.8064448833465576
+            ],
+            [
+              "taiwanese",
+              0.7891280055046082
+            ],
+            [
+              "japanese",
+              0.7454280853271484
+            ],
+            [
+              "mainland",
+              0.7397265434265137
+            ]
+          ],
+          "expected_cosine": 0.9533727169036865,
+          "top5": [
+            [
+              "chinese",
+              0.9533727169036865
+            ],
+            [
+              "taiwanese",
+              0.7891280055046082
+            ],
+            [
+              "mainland",
+              0.7397265434265137
+            ],
+            [
+              "vietnamese",
+              0.7387635707855225
+            ],
+            [
+              "korean",
+              0.7252402305603027
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.8742148876190186,
+          "relative_residual": 0.25228846073150635
+        },
+        {
+          "type": "gentilicio",
+          "a": "italy",
+          "b": "italian",
+          "c": "spain",
+          "expected": "spanish",
+          "without_exclusion": [
+            [
+              "spanish",
+              0.9227449893951416
+            ],
+            [
+              "italian",
+              0.784345805644989
+            ],
+            [
+              "spain",
+              0.7673549652099609
+            ],
+            [
+              "french",
+              0.753253161907196
+            ],
+            [
+              "argentine",
+              0.7234350442886353
+            ]
+          ],
+          "expected_cosine": 0.9227449893951416,
+          "top5": [
+            [
+              "spanish",
+              0.9227449893951416
+            ],
+            [
+              "french",
+              0.753253161907196
+            ],
+            [
+              "argentine",
+              0.7234350442886353
+            ],
+            [
+              "portuguese",
+              0.7121980786323547
+            ],
+            [
+              "mexican",
+              0.7073920965194702
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.8400325775146484,
+          "relative_residual": 0.2834551930427551
+        },
+        {
+          "type": "comparativo",
+          "a": "good",
+          "b": "better",
+          "c": "bad",
+          "expected": "worse",
+          "without_exclusion": [
+            [
+              "bad",
+              0.8963202238082886
+            ],
+            [
+              "worse",
+              0.8442931175231934
+            ],
+            [
+              "better",
+              0.7766090631484985
+            ],
+            [
+              "too",
+              0.7491365075111389
+            ],
+            [
+              "even",
+              0.7305891513824463
+            ]
+          ],
+          "expected_cosine": 0.8442931175231934,
+          "top5": [
+            [
+              "worse",
+              0.8442931175231934
+            ],
+            [
+              "too",
+              0.7491365075111389
+            ],
+            [
+              "even",
+              0.7305891513824463
+            ],
+            [
+              "getting",
+              0.7304456830024719
+            ],
+            [
+              "because",
+              0.7298996448516846
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.5262777805328369,
+          "relative_residual": 0.5010520815849304
+        },
+        {
+          "type": "comparativo",
+          "a": "small",
+          "b": "smaller",
+          "c": "large",
+          "expected": "larger",
+          "without_exclusion": [
+            [
+              "smaller",
+              0.93807053565979
+            ],
+            [
+              "larger",
+              0.9100971221923828
+            ],
+            [
+              "large",
+              0.8411078453063965
+            ],
+            [
+              "bigger",
+              0.7412159442901611
+            ],
+            [
+              "small",
+              0.7258169651031494
+            ]
+          ],
+          "expected_cosine": 0.9100971221923828,
+          "top5": [
+            [
+              "larger",
+              0.9100971221923828
+            ],
+            [
+              "bigger",
+              0.7412159442901611
+            ],
+            [
+              "huge",
+              0.665852427482605
+            ],
+            [
+              "size",
+              0.6583970785140991
+            ],
+            [
+              "significant",
+              0.6451108455657959
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.6942805051803589,
+          "relative_residual": 0.39290937781333923
+        },
+        {
+          "type": "comparativo",
+          "a": "fast",
+          "b": "faster",
+          "c": "slow",
+          "expected": "slower",
+          "without_exclusion": [
+            [
+              "faster",
+              0.834179699420929
+            ],
+            [
+              "slower",
+              0.8117425441741943
+            ],
+            [
+              "slow",
+              0.7954511642456055
+            ],
+            [
+              "slowed",
+              0.7317957878112793
+            ],
+            [
+              "slowing",
+              0.7269871234893799
+            ]
+          ],
+          "expected_cosine": 0.8117425441741943,
+          "top5": [
+            [
+              "slower",
+              0.8117425441741943
+            ],
+            [
+              "slowed",
+              0.7317957878112793
+            ],
+            [
+              "slowing",
+              0.7269871234893799
+            ],
+            [
+              "quicker",
+              0.690546989440918
+            ],
+            [
+              "accelerated",
+              0.6682286262512207
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.5367572903633118,
+          "relative_residual": 0.48141777515411377
+        },
+        {
+          "type": "superlativo",
+          "a": "small",
+          "b": "smallest",
+          "c": "large",
+          "expected": "largest",
+          "without_exclusion": [
+            [
+              "smallest",
+              0.9393439292907715
+            ],
+            [
+              "largest",
+              0.696491003036499
+            ],
+            [
+              "larger",
+              0.6811785101890564
+            ],
+            [
+              "proportion",
+              0.656102180480957
+            ],
+            [
+              "fraction",
+              0.6329450011253357
+            ]
+          ],
+          "expected_cosine": 0.696491003036499,
+          "top5": [
+            [
+              "largest",
+              0.696491003036499
+            ],
+            [
+              "larger",
+              0.6811785101890564
+            ],
+            [
+              "proportion",
+              0.656102180480957
+            ],
+            [
+              "fraction",
+              0.6329450011253357
+            ],
+            [
+              "size",
+              0.6277497410774231
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.5432658791542053,
+          "relative_residual": 0.4786350429058075
+        },
+        {
+          "type": "superlativo",
+          "a": "good",
+          "b": "best",
+          "c": "bad",
+          "expected": "worst",
+          "without_exclusion": [
+            [
+              "bad",
+              0.8092379570007324
+            ],
+            [
+              "best",
+              0.774955153465271
+            ],
+            [
+              "worst",
+              0.6984837055206299
+            ],
+            [
+              "movie",
+              0.667366087436676
+            ],
+            [
+              "big",
+              0.6651422381401062
+            ]
+          ],
+          "expected_cosine": 0.6984837055206299,
+          "top5": [
+            [
+              "worst",
+              0.6984837055206299
+            ],
+            [
+              "movie",
+              0.667366087436676
+            ],
+            [
+              "big",
+              0.6651422381401062
+            ],
+            [
+              "ever",
+              0.6568705439567566
+            ],
+            [
+              "film",
+              0.6381846070289612
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.432536780834198,
+          "relative_residual": 0.5437201857566833
+        },
+        {
+          "type": "superlativo",
+          "a": "high",
+          "b": "highest",
+          "c": "low",
+          "expected": "lowest",
+          "without_exclusion": [
+            [
+              "lowest",
+              0.8547129034996033
+            ],
+            [
+              "highest",
+              0.8459634184837341
+            ],
+            [
+              "low",
+              0.7247586846351624
+            ],
+            [
+              "average",
+              0.6902095675468445
+            ],
+            [
+              "percentage",
+              0.6769610643386841
+            ]
+          ],
+          "expected_cosine": 0.8547129034996033,
+          "top5": [
+            [
+              "lowest",
+              0.8547129034996033
+            ],
+            [
+              "average",
+              0.6902095675468445
+            ],
+            [
+              "percentage",
+              0.6769610643386841
+            ],
+            [
+              "higher",
+              0.6685365438461304
+            ],
+            [
+              "below",
+              0.6560141444206238
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.7277966737747192,
+          "relative_residual": 0.36927250027656555
+        },
+        {
+          "type": "pasado",
+          "a": "run",
+          "b": "ran",
+          "c": "swim",
+          "expected": "swam",
+          "without_exclusion": [
+            [
+              "swim",
+              0.8207092881202698
+            ],
+            [
+              "swam",
+              0.7187472581863403
+            ],
+            [
+              "swimming",
+              0.6399335265159607
+            ],
+            [
+              "ran",
+              0.5614020824432373
+            ],
+            [
+              "rowed",
+              0.5415298938751221
+            ]
+          ],
+          "expected_cosine": 0.7187472581863403,
+          "top5": [
+            [
+              "swam",
+              0.7187472581863403
+            ],
+            [
+              "swimming",
+              0.6399335265159607
+            ],
+            [
+              "rowed",
+              0.5415298938751221
+            ],
+            [
+              "overboard",
+              0.5412135720252991
+            ],
+            [
+              "rowing",
+              0.5398244857788086
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.35352158546447754,
+          "relative_residual": 0.5711588859558105
+        },
+        {
+          "type": "pasado",
+          "a": "go",
+          "b": "went",
+          "c": "see",
+          "expected": "saw",
+          "without_exclusion": [
+            [
+              "saw",
+              0.8555887341499329
+            ],
+            [
+              "came",
+              0.8108015060424805
+            ],
+            [
+              "went",
+              0.805586040019989
+            ],
+            [
+              "when",
+              0.7881167531013489
+            ],
+            [
+              "later",
+              0.7850238084793091
+            ]
+          ],
+          "expected_cosine": 0.8555887341499329,
+          "top5": [
+            [
+              "saw",
+              0.8555887341499329
+            ],
+            [
+              "came",
+              0.8108015060424805
+            ],
+            [
+              "when",
+              0.7881167531013489
+            ],
+            [
+              "later",
+              0.7850238084793091
+            ],
+            [
+              "turned",
+              0.7803882360458374
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.7315158843994141,
+          "relative_residual": 0.36788421869277954
+        },
+        {
+          "type": "pasado",
+          "a": "walk",
+          "b": "walked",
+          "c": "play",
+          "expected": "played",
+          "without_exclusion": [
+            [
+              "played",
+              0.7959973812103271
+            ],
+            [
+              "play",
+              0.774466872215271
+            ],
+            [
+              "playing",
+              0.7550231218338013
+            ],
+            [
+              "game",
+              0.6960524916648865
+            ],
+            [
+              "plays",
+              0.6738983392715454
+            ]
+          ],
+          "expected_cosine": 0.7959973812103271,
+          "top5": [
+            [
+              "played",
+              0.7959973812103271
+            ],
+            [
+              "playing",
+              0.7550231218338013
+            ],
+            [
+              "game",
+              0.6960524916648865
+            ],
+            [
+              "plays",
+              0.6738983392715454
+            ],
+            [
+              "players",
+              0.6721627712249756
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.4348594546318054,
+          "relative_residual": 0.5367507934570312
+        },
+        {
+          "type": "plural",
+          "a": "cat",
+          "b": "cats",
+          "c": "dog",
+          "expected": "dogs",
+          "without_exclusion": [
+            [
+              "cats",
+              0.8843896985054016
+            ],
+            [
+              "dogs",
+              0.8747848868370056
+            ],
+            [
+              "animals",
+              0.7490843534469604
+            ],
+            [
+              "dog",
+              0.7418006062507629
+            ],
+            [
+              "pets",
+              0.7353289127349854
+            ]
+          ],
+          "expected_cosine": 0.8747848868370056,
+          "top5": [
+            [
+              "dogs",
+              0.8747848868370056
+            ],
+            [
+              "animals",
+              0.7490843534469604
+            ],
+            [
+              "pets",
+              0.7353289127349854
+            ],
+            [
+              "cows",
+              0.6860353946685791
+            ],
+            [
+              "pigs",
+              0.6737219095230103
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.7201406955718994,
+          "relative_residual": 0.3788152039051056
+        },
+        {
+          "type": "plural",
+          "a": "car",
+          "b": "cars",
+          "c": "book",
+          "expected": "books",
+          "without_exclusion": [
+            [
+              "books",
+              0.8557143807411194
+            ],
+            [
+              "book",
+              0.8492953777313232
+            ],
+            [
+              "novels",
+              0.7320640087127686
+            ],
+            [
+              "published",
+              0.7239384651184082
+            ],
+            [
+              "novel",
+              0.7142058610916138
+            ]
+          ],
+          "expected_cosine": 0.8557143807411194,
+          "top5": [
+            [
+              "books",
+              0.8557143807411194
+            ],
+            [
+              "novels",
+              0.7320640087127686
+            ],
+            [
+              "published",
+              0.7239384651184082
+            ],
+            [
+              "novel",
+              0.7142058610916138
+            ],
+            [
+              "fiction",
+              0.7117491364479065
+            ]
+          ],
+          "expected_rank": 1,
+          "matches_gensim": true,
+          "difference_cosine": 0.4976447820663452,
+          "relative_residual": 0.5020594000816345
+        },
+        {
+          "type": "plural",
+          "a": "child",
+          "b": "children",
+          "c": "man",
+          "expected": "men",
+          "without_exclusion": [
+            [
+              "man",
+              0.8613023161888123
+            ],
+            [
+              "others",
+              0.7683974504470825
+            ],
+            [
+              "one",
+              0.7668331861495972
+            ],
+            [
+              "people",
+              0.7569723129272461
+            ],
+            [
+              "who",
+              0.747267484664917
+            ]
+          ],
+          "expected_cosine": 0.7437437772750854,
+          "top5": [
+            [
+              "others",
+              0.7683974504470825
+            ],
+            [
+              "one",
+              0.7668331861495972
+            ],
+            [
+              "people",
+              0.7569723129272461
+            ],
+            [
+              "who",
+              0.747267484664917
+            ],
+            [
+              "men",
+              0.7437437772750854
+            ]
+          ],
+          "expected_rank": 5,
+          "matches_gensim": true,
+          "difference_cosine": 0.468935489654541,
+          "relative_residual": 0.5359245538711548
+        }
+      ],
+      "matches_gensim_all": true,
+      "parallelism_mean": 0.6191187500953674,
+      "top1_accuracy": 0.8571428571428571,
+      "oov_count": 0
+    }
+  }
+}

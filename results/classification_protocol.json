@@ -1,0 +1,20 @@
+{
+  "seed": 23045,
+  "n_train": 108000,
+  "n_validation": 12000,
+  "n_official_test": 7600,
+  "split_stratified": true,
+  "task_vocab_size": 42457,
+  "task_min_freq": 2,
+  "hidden_dim": 128,
+  "dropout": 0.2,
+  "epochs": 10,
+  "fracs": [
+    0.01,
+    0.1,
+    0.5,
+    1.0
+  ],
+  "vocab_policy": "Vocabulario común definido sólo con train; OOV del embedding fuente -> UNK; filas sin vector inaccesibles. Aleatorio tiene dimensión del SGNS seleccionado.",
+  "test_policy": "Una inferencia en test por inicialización y fracción tras seleccionar congelado/fine-tuning y epoch sólo por validación; ninguna selección posterior con test."
+}

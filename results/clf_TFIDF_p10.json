@@ -1,0 +1,47 @@
+{
+  "name": "TFIDF_p10",
+  "validation": {
+    "accuracy": 0.8916666666666667,
+    "precision_macro": 0.8915442914567928,
+    "recall_macro": 0.8916666666666667,
+    "f1_macro": 0.8913100753475822
+  },
+  "records": [
+    {
+      "epoch": 1,
+      "train_loss": 0.3905855091058094,
+      "val_loss": 0.44270145433693053
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.27494256732358435,
+      "val_loss": 0.38951352464438643
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.2365990604198502,
+      "val_loss": 0.37224272610630593
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.2150840120423484,
+      "val_loss": 0.36912469916708385
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.19442518328409691,
+      "val_loss": 0.36501547722359107
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.18417391979054257,
+      "val_loss": 0.3633095078007156
+    }
+  ],
+  "training_seconds": 1.098767040995881,
+  "total_parameters": 58276,
+  "trainable_parameters": 58276,
+  "n_train": 10800,
+  "vocab_size": 14568,
+  "loss_note": "Entropía cruzada sin término regularizador; bloques de 10 iteraciones L-BFGS, no epochs de SGD."
+}

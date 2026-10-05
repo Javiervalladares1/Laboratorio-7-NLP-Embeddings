@@ -1,0 +1,13 @@
+.venv/
+data/
+tmp/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+models/*.pt
+models/*.kv*
+models/*.model*
+models/*.npz
+*.log
+models/*.joblib
+models/mejor_sgns.txt

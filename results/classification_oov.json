@@ -1,0 +1,53 @@
+{
+  "SGNS": {
+    "train": {
+      "tokens": 4284605,
+      "source_oov_percent": 5.361684449324967,
+      "classifier_unk_percent": 5.434830048510889
+    },
+    "validation": {
+      "tokens": 475157,
+      "source_oov_percent": 5.310034367587976,
+      "classifier_unk_percent": 5.513546048990123
+    },
+    "test": {
+      "tokens": 299788,
+      "source_oov_percent": 5.382136709941692,
+      "classifier_unk_percent": 5.584946695664937
+    }
+  },
+  "gensim": {
+    "train": {
+      "tokens": 4284605,
+      "source_oov_percent": 5.361684449324967,
+      "classifier_unk_percent": 5.434830048510889
+    },
+    "validation": {
+      "tokens": 475157,
+      "source_oov_percent": 5.310034367587976,
+      "classifier_unk_percent": 5.513546048990123
+    },
+    "test": {
+      "tokens": 299788,
+      "source_oov_percent": 5.382136709941692,
+      "classifier_unk_percent": 5.584946695664937
+    }
+  },
+  "GloVe": {
+    "train": {
+      "tokens": 4284605,
+      "source_oov_percent": 0.5643227322005179,
+      "classifier_unk_percent": 0.9221620196027405
+    },
+    "validation": {
+      "tokens": 475157,
+      "source_oov_percent": 0.5562372015986295,
+      "classifier_unk_percent": 1.3547101273894733
+    },
+    "test": {
+      "tokens": 299788,
+      "source_oov_percent": 0.509359947696372,
+      "classifier_unk_percent": 1.298250763873137
+    }
+  }
+}

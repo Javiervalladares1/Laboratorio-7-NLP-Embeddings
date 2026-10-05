@@ -1,0 +1,124 @@
+{
+  "name": "GloVe_frozen_p10",
+  "freeze": true,
+  "epochs": 10,
+  "best_epoch": 10,
+  "validation": {
+    "accuracy": 0.8865,
+    "precision_macro": 0.8871960317194698,
+    "recall_macro": 0.8865,
+    "f1_macro": 0.8864352915658307
+  },
+  "records": [
+    {
+      "epoch": 1,
+      "train_loss": 1.0449172842061079,
+      "val_loss": 0.6345148595174154,
+      "accuracy": 0.8465,
+      "precision_macro": 0.8458801438295948,
+      "recall_macro": 0.8465,
+      "f1_macro": 0.8454493936852852,
+      "seconds": 0.13552512502064928
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.5109875823833324,
+      "val_loss": 0.42069895680745445,
+      "accuracy": 0.8629166666666667,
+      "precision_macro": 0.8628680249489565,
+      "recall_macro": 0.8629166666666667,
+      "f1_macro": 0.862646641758649,
+      "seconds": 0.08598249999340624
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.4094857250319587,
+      "val_loss": 0.3897202402750651,
+      "accuracy": 0.8674166666666666,
+      "precision_macro": 0.8664220761681014,
+      "recall_macro": 0.8674166666666666,
+      "f1_macro": 0.8665377107323289,
+      "seconds": 0.09221958299167454
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.38456388301319544,
+      "val_loss": 0.3739475631713867,
+      "accuracy": 0.8713333333333333,
+      "precision_macro": 0.8719382796816106,
+      "recall_macro": 0.8713333333333333,
+      "f1_macro": 0.8711404057710047,
+      "seconds": 0.08054437499959022
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.3761146148045858,
+      "val_loss": 0.36309474690755206,
+      "accuracy": 0.8809166666666667,
+      "precision_macro": 0.8822118310583897,
+      "recall_macro": 0.8809166666666666,
+      "f1_macro": 0.8807462970219472,
+      "seconds": 0.10513983300188556
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.3587293291533435,
+      "val_loss": 0.351939208984375,
+      "accuracy": 0.8809166666666667,
+      "precision_macro": 0.8807040199209843,
+      "recall_macro": 0.8809166666666667,
+      "f1_macro": 0.8806254284719208,
+      "seconds": 0.10867562500061467
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.34877770565174243,
+      "val_loss": 0.34886723454793295,
+      "accuracy": 0.885,
+      "precision_macro": 0.886079394802129,
+      "recall_macro": 0.885,
+      "f1_macro": 0.8849548914108151,
+      "seconds": 0.08642874995712191
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.34584815683188264,
+      "val_loss": 0.3442812894185384,
+      "accuracy": 0.8844166666666666,
+      "precision_macro": 0.8845214445060898,
+      "recall_macro": 0.8844166666666666,
+      "f1_macro": 0.8843048562608155,
+      "seconds": 0.09798687498550862
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.33800312174691094,
+      "val_loss": 0.3400437469482422,
+      "accuracy": 0.8854166666666666,
+      "precision_macro": 0.8852548653284023,
+      "recall_macro": 0.8854166666666667,
+      "f1_macro": 0.8852205492696333,
+      "seconds": 0.10082849999889731
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.3365722482955014,
+      "val_loss": 0.3383326695760091,
+      "accuracy": 0.8865,
+      "precision_macro": 0.8871960317194698,
+      "recall_macro": 0.8865,
+      "f1_macro": 0.8864352915658307,
+      "seconds": 0.11151333397720009
+    }
+  ],
+  "training_seconds": 1.3801672919653356,
+  "total_parameters": 4259144,
+  "trainable_parameters": 13444,
+  "n_train": 10800,
+  "n_val": 12000,
+  "embedding_dim": 100,
+  "vocab_size": 42457,
+  "hardware": "Apple M1 Pro; CPU 4 threads",
+  "learning_rate": 0.003,
+  "batch_size": 512
+}

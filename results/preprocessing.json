@@ -1,0 +1,58 @@
+{
+  "splits": {
+    "test": {
+      "lines": 4358,
+      "nonempty_lines": 2891,
+      "articles": 62,
+      "tokens": 207485
+    },
+    "train": {
+      "lines": 1801350,
+      "nonempty_lines": 1165029,
+      "articles": 29443,
+      "tokens": 86951330
+    },
+    "validation": {
+      "lines": 3760,
+      "nonempty_lines": 2461,
+      "articles": 60,
+      "tokens": 184480
+    }
+  },
+  "subset_tokens": 22000000,
+  "subset_articles_started": 7699,
+  "subset_lines": 295370,
+  "known_tokens": 21336925,
+  "min_count": 20,
+  "vocab_size": 38569,
+  "oov_percent": 3.013977272727273,
+  "thresholds": [
+    {
+      "min_count": 1,
+      "vocab_size": 234363,
+      "oov_percent": 0.0
+    },
+    {
+      "min_count": 5,
+      "vocab_size": 82265,
+      "oov_percent": 1.1388863636363635
+    },
+    {
+      "min_count": 20,
+      "vocab_size": 38569,
+      "oov_percent": 3.013977272727273
+    },
+    {
+      "min_count": 50,
+      "vocab_size": 22345,
+      "oov_percent": 5.313190909090909
+    }
+  ],
+  "zipf_slope_rank_100_10000": -1.1002995543436052,
+  "coverage_full_train": {
+    "10": 24.249288653779075,
+    "1000": 64.76534286479574,
+    "30000": 95.69173927529343
+  },
+  "normalization": "NFKC, minúsculas, puntuación y guiones separados, números literales, marcadores y <unk> eliminados, sin stopwords/stemming."
+}

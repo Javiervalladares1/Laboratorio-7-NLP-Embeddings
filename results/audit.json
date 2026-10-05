@@ -1,0 +1,26 @@
+{
+  "python": "3.12.14",
+  "hardware": "Apple M1 Pro, 16 GB RAM, CPU 4 hilos",
+  "complete_sgns_runs": 7,
+  "sgns_epochs": 21,
+  "shared_candidates": 30000,
+  "shared_questions": 12154,
+  "embedding_integrity": {
+    "SGNS": {
+      "finite": true,
+      "nonzero_vectors": 38569,
+      "vocab_size": 38569,
+      "dimension": 100
+    },
+    "gensim": {
+      "finite": true,
+      "nonzero_vectors": 38569,
+      "vocab_size": 38569,
+      "dimension": 100
+    }
+  },
+  "test_winners_evaluated": 20,
+  "official_test_size": 7600,
+  "gensim_cython_messages": 35,
+  "gensim_cython_note": "La rueda gensim 4.4.0 emitió mensajes our_dot_float sin excepción Python capturable; se verificaron vectores finitos y métricas crecientes. No se modificó Word2Vec ni se ocultaron mensajes del registro original."
+}

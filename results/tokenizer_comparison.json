@@ -1,0 +1,250 @@
+[
+  {
+    "sentence": "I can't believe it's already January!",
+    "own": [
+      "i",
+      "can",
+      "t",
+      "believe",
+      "it",
+      "s",
+      "already",
+      "january"
+    ],
+    "nltk_treebank": [
+      "i",
+      "ca",
+      "n't",
+      "believe",
+      "it",
+      "'s",
+      "already",
+      "january",
+      "!"
+    ]
+  },
+  {
+    "sentence": "Don't re-enter the state-of-the-art building.",
+    "own": [
+      "don",
+      "t",
+      "re",
+      "enter",
+      "the",
+      "state",
+      "of",
+      "the",
+      "art",
+      "building"
+    ],
+    "nltk_treebank": [
+      "do",
+      "n't",
+      "re-enter",
+      "the",
+      "state-of-the-art",
+      "building",
+      "."
+    ]
+  },
+  {
+    "sentence": "Dr. Smith lives in the U.S.A.",
+    "own": [
+      "dr",
+      "smith",
+      "lives",
+      "in",
+      "the",
+      "u",
+      "s",
+      "a"
+    ],
+    "nltk_treebank": [
+      "dr.",
+      "smith",
+      "lives",
+      "in",
+      "the",
+      "u.s.a",
+      "."
+    ]
+  },
+  {
+    "sentence": "The price is $3.50, not $350.",
+    "own": [
+      "the",
+      "price",
+      "is",
+      "3.50",
+      "not",
+      "350"
+    ],
+    "nltk_treebank": [
+      "the",
+      "price",
+      "is",
+      "$",
+      "3.50",
+      ",",
+      "not",
+      "$",
+      "350",
+      "."
+    ]
+  },
+  {
+    "sentence": "We're testing king-man+woman=queen.",
+    "own": [
+      "we",
+      "re",
+      "testing",
+      "king",
+      "man",
+      "woman",
+      "queen"
+    ],
+    "nltk_treebank": [
+      "we",
+      "'re",
+      "testing",
+      "king-man+woman=queen",
+      "."
+    ]
+  },
+  {
+    "sentence": "They've won 3-0 in 2026.",
+    "own": [
+      "they",
+      "ve",
+      "won",
+      "3",
+      "0",
+      "in",
+      "2026"
+    ],
+    "nltk_treebank": [
+      "they",
+      "'ve",
+      "won",
+      "3-0",
+      "in",
+      "2026",
+      "."
+    ]
+  },
+  {
+    "sentence": "John's computer isn't working.",
+    "own": [
+      "john",
+      "s",
+      "computer",
+      "isn",
+      "t",
+      "working"
+    ],
+    "nltk_treebank": [
+      "john",
+      "'s",
+      "computer",
+      "is",
+      "n't",
+      "working",
+      "."
+    ]
+  },
+  {
+    "sentence": "Email me at hello@example.com.",
+    "own": [
+      "email",
+      "me",
+      "at",
+      "hello",
+      "example",
+      "com"
+    ],
+    "nltk_treebank": [
+      "email",
+      "me",
+      "at",
+      "hello",
+      "@",
+      "example.com",
+      "."
+    ]
+  },
+  {
+    "sentence": "The co-founder said: 'Good morning!'",
+    "own": [
+      "the",
+      "co",
+      "founder",
+      "said",
+      "good",
+      "morning"
+    ],
+    "nltk_treebank": [
+      "the",
+      "co-founder",
+      "said",
+      ":",
+      "'good",
+      "morning",
+      "!",
+      "'"
+    ]
+  },
+  {
+    "sentence": "New York-based firms grew 12.5%.",
+    "own": [
+      "new",
+      "york",
+      "based",
+      "firms",
+      "grew",
+      "12.5"
+    ],
+    "nltk_treebank": [
+      "new",
+      "york-based",
+      "firms",
+      "grew",
+      "12.5",
+      "%",
+      "."
+    ]
+  },
+  {
+    "sentence": "Café naïve — Unicode matters.",
+    "own": [
+      "caf",
+      "na",
+      "ve",
+      "unicode",
+      "matters"
+    ],
+    "nltk_treebank": [
+      "café",
+      "naïve",
+      "—",
+      "unicode",
+      "matters",
+      "."
+    ]
+  },
+  {
+    "sentence": "WikiText uses @-@ and <unk> markers.",
+    "own": [
+      "wikitext",
+      "uses",
+      "and",
+      "markers"
+    ],
+    "nltk_treebank": [
+      "wikitext",
+      "uses",
+      "and",
+      "markers",
+      "."
+    ]
+  }
+]

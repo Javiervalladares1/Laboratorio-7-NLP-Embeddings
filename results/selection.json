@@ -1,0 +1,14 @@
+{
+  "best": "d100_w5",
+  "best_100": "d100_w5",
+  "criterion": "Modelo principal: >=20M tokens conocidos. Spearman WordSim-353 + accuracy total de analogías compartidas; mejor epoch.",
+  "scores": {
+    "d100_n100": 0.6690884951375047,
+    "d50_n100": 0.6602541051988813,
+    "d300_n100": 0.6478486048407811,
+    "d100_n25": 0.14602926708262942,
+    "d100_n50": 0.4001301446242885,
+    "d100_w5": 0.884604697146811,
+    "d100_k5": 0.7152708912655381
+  }
+}
