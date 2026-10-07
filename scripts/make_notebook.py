@@ -281,7 +281,7 @@ md('''### Integridad de la ejecución
 La rueda oficial gensim 4.4.0 emitió mensajes Cython our_dot_float. No se modificó Word2Vec ni se ocultaron sus avisos. La auditoría de resultados en results/audit.json verifica vectores finitos/no nulos, 21 epochs SGNS, preguntas compartidas y tamaños de matrices de confusión. Versiones exactas: requirements-lock.txt.''')
 if (ROOT/'results/delivery.json').exists():
     url=json.loads((ROOT/'results/delivery.json').read_text())['repository']
-    md('## Repositorio de entrega\n\n['+url+']('+url+')\n\nVectores: models/mejor_sgns.txt.gz.')
+    md('## Repositorio de entrega\n\n['+url+']('+url+')\n\nRepositorio público. Informe sencillo en Word: `output/docx/Laboratorio_7_Informe.docx`. Vectores: models/mejor_sgns.txt.gz.')
 nb=nbf.v4.new_notebook(cells=cells,metadata={'kernelspec':{'display_name':'Python 3','language':'python','name':'python3'},'language_info':{'name':'python','version':platform.python_version() if False else '3.12'}})
 nbf.write(nb,ROOT/'Laboratorio_7_NLP_Embeddings.ipynb')
 print('Notebook creado:',len(cells),'celdas')

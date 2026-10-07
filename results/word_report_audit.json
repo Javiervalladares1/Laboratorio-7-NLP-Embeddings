@@ -1,0 +1,28 @@
+{
+  "pages": 5,
+  "visual_review": "Las cinco páginas renderizadas fueron revisadas: sin recortes ni tablas partidas.",
+  "text_color": "000000",
+  "page_color_checks": [
+    {
+      "page": "page-1",
+      "colored_pixels": 0
+    },
+    {
+      "page": "page-2",
+      "colored_pixels": 0
+    },
+    {
+      "page": "page-3",
+      "colored_pixels": 0
+    },
+    {
+      "page": "page-4",
+      "colored_pixels": 0
+    },
+    {
+      "page": "page-5",
+      "colored_pixels": 0
+    }
+  ],
+  "repository_visibility": "public"
+}

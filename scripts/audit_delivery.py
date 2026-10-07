@@ -32,7 +32,7 @@ def main():
  out={'python':platform.python_version(),'hardware':'Apple M1 Pro, 16 GB RAM, CPU 4 hilos','complete_sgns_runs':len(runs),'sgns_epochs':sum(len(r['records']) for r in runs),'shared_candidates':30000,'shared_questions':next(iter(count)),'embedding_integrity':checked,'test_winners_evaluated':len(clf),'official_test_size':7600,'gensim_cython_messages':warnings,'gensim_cython_note':'La rueda gensim 4.4.0 emitió mensajes our_dot_float sin excepción Python capturable; se verificaron vectores finitos y métricas crecientes. No se modificó Word2Vec ni se ocultaron mensajes del registro original.'}
  dump_json(ROOT/'results/audit.json',out)
  hashes={}
- for p in [ROOT/'Laboratorio_7_NLP_Embeddings.ipynb',ROOT/'models/mejor_sgns.txt.gz',ROOT/'output/pdf/Laboratorio_7_Informe.pdf']:
+ for p in [ROOT/'Laboratorio_7_NLP_Embeddings.ipynb',ROOT/'models/mejor_sgns.txt.gz',ROOT/'output/pdf/Laboratorio_7_Informe.pdf',ROOT/'output/docx/Laboratorio_7_Informe.docx']:
   if p.exists():hashes[str(p.relative_to(ROOT))]=hashlib.sha256(p.read_bytes()).hexdigest()
  dump_json(ROOT/'results/artifact_hashes.json',hashes)
  print(json.dumps(out,indent=2),flush=True)

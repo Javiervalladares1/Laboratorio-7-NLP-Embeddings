@@ -3,7 +3,7 @@
 **Javier Valladares, 23045 · Ian Cumes, 23236**  
 CC3092 - Deep Learning y Sistemas Inteligentes
 
-Repositorio: [https://github.com/Javiervalladares1/Laboratorio-7-NLP-Embeddings](https://github.com/Javiervalladares1/Laboratorio-7-NLP-Embeddings) (privado; dar acceso al profesor para que pueda revisarlo).
+Repositorio público: [https://github.com/Javiervalladares1/Laboratorio-7-NLP-Embeddings](https://github.com/Javiervalladares1/Laboratorio-7-NLP-Embeddings).
 
 La entrega incluye SGNS propio en PyTorch, referencia gensim, GloVe 100d, evaluación intrínseca y clasificación AG News. Las métricas son resultados ejecutados; no hay valores simulados.
 
@@ -11,6 +11,7 @@ La entrega incluye SGNS propio en PyTorch, referencia gensim, GloVe 100d, evalua
 
 - `Laboratorio_7_NLP_Embeddings.ipynb`: notebook comentado, con resultados y visualizaciones.
 - `output/pdf/Laboratorio_7_Informe.pdf`: informe de máximo cinco páginas.
+- `output/docx/Laboratorio_7_Informe.docx`: informe en Word con lenguaje sencillo, texto, tablas y gráficos en negro.
 - `models/mejor_sgns.txt`: vectores del mejor SGNS, formato word2vec de texto.
 - `results/`: configuraciones, métricas por epoch, vecinos, analogías propias, categorías, clasificación, cobertura y selección.
 - `figures/`: Zipf, curvas, t-SNE, benchmark y matrices de confusión.
@@ -36,6 +37,13 @@ jupyter lab Laboratorio_7_NLP_Embeddings.ipynb
 ```
 
 El notebook usa `REENTRENAR=False` de forma predeterminada y muestra los resultados ya guardados. La lectura del mejor modelo funciona directamente con `models/mejor_sgns.txt`, sin descargar otra vez GloVe. Para reproducir desde cero, activar `REENTRENAR=True` o ejecutar `scripts/run_all.py`. Se descargan datasets y GloVe a `data/`. Se requiere espacio para datos, modelos y pares temporales; la ejecución de referencia se hizo en M1 Pro con 16 GB, CPU de cuatro hilos.
+
+Para regenerar el informe de Word desde los resultados guardados, sin reentrenar:
+
+```bash
+pip install -r requirements-documents.txt
+python scripts/make_word_report.py
+```
 
 `run_all.py` reutiliza configuraciones completas y test ya sellado. Para un experimento independiente, usar una copia nueva del proyecto con `results/`, `models/` y `data/` reconstruidos, conservando la entrega original. No borrar selectivamente resultados de test para ajustar sobre ellos.
 

@@ -1,6 +1,7 @@
 {
   "repository": "https://github.com/Javiervalladares1/Laboratorio-7-NLP-Embeddings",
-  "visibility": "private",
+  "visibility": "public",
+  "word_report": "output/docx/Laboratorio_7_Informe.docx",
   "authors": [
     {
       "name": "Javier Valladares",
